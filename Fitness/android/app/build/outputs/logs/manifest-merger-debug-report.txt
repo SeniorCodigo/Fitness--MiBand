@@ -5,60 +5,82 @@ INJECTED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/
 INJECTED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:1:1-46:12
 INJECTED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:1:1-46:12
 MERGED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:1:1-46:12
+MERGED from [com.google.firebase:firebase-core:16.0.8] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/dcdbedf90f871624d51c5f5176741e32/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5fe6880aa5b7a76ebd3782a5365d18a4/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:@react-native-community_picker] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-pdf-lib] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-pdf-lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-device-info] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
 MERGED from [:react-native-svg] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:@react-native-community_async-storage] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:@react-native-community_masked-view] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-html-to-pdf] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-html-to-pdf/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-splash-screen] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [:react-native-vector-icons] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-webview] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
-MERGED from [com.facebook.react:react-native:0.60.5] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/262aad6fcf98fbd80a9b38d6dd3e9b07/AndroidManifest.xml:2:1-13:12
-MERGED from [org.webkit:android-jsc:r245459] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/709a6e4f3e5b1ca86ce771f64c98796b/AndroidManifest.xml:2:1-11:12
-MERGED from [com.tom_roush:pdfbox-android:1.8.10.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/057b7b1dc1225c129b4776d4686f1d14/AndroidManifest.xml:2:1-13:12
-MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/db5a75f644f55b9b733f89a54c49adc6/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.appcompat:appcompat:1.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/9dc4f07ffcb170542eab1e6866e424c9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/38a702aa270ade2e6603d4e27cfe8608/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/3eebddfaa8d8cb5f3a5209d8d68b5c1f/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/ab78cd145e164aa2778b038e5e08b7db/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8d8f47f3bbf6286b7d74ef6374240412/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d988d8b94a50927644d7da991fcbf71f/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e1b6e317d9f8036248cfad31162db408/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/f052d64abe08000843eb6538d00fbb76/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.6.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7bf8acfe408b27cbd0e3cfa1b5a29f09/AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.transition:transition:1.1.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/757742488f43b9c5461ccb39ca273a1f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5802d72771d6aeae189f8a94ebba2419/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/676cb0374234f39407b74b382d46b728/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5b61edd8a39787a8f78fc2aede813780/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fc9461aba3cafcef5340c375cc124ba9/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/01acabdc7041b2f37c72254b6290e60a/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d1aea665abf0bdc4cce5c7c18c78a9cc/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5660a837652dcca69f7e76e7caf3936c/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/eb2fe030f3a5047dfd9cd893a692f247/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/0f5fb0632520c3946209399d72d5fe15/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/ecdc80d95e2205b998946a9af27bb64f/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b48adf9418d14a2bf98809bb950a5207/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d3fc23bef82f350c687d48f53947961a/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5a12e0d087a1e1aa63de4fde8467094b/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/ac8b7288a7864a3ce1c87066325d0b2b/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7757bf6b61ed0b676d01d503dcdd3497/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8c2309875b5a1472eaed8b7d4d64477a/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4b078eab575aab79cffa9f777baa5549/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/c6179dbf35fcb031eebeef2648b9aad9/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b0f555fa01bfb19ca9fe4ebca5e74190/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d901377262e4d7bdf8a037fd6ede01d5/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/57524efa5f21b742505da4bc8819b940/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/f4508008630c274620d56ec57873c432/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/82538302b5f07418e62867474f2a2fca/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fc02eaaf4d080d3303910d41fa430871/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5b189ea610e8ad3efd575618b0d749ec/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/3fc1a90c3a129f7b39e1526fbe567d91/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d1191e8d0103bb192ff682d3f915e564/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/25675b30b3a8f7e12b0ca1e569615043/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5c8a226d412c4ba0889265002f7cfc77/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/88f91681eda718552f180b51cbb348ea/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.60.5] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/44f0b47c0dec03273fe193c3fcd0494c/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/a6881cf613118b456dbe5cd7a596853b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5e7b7ffb423e449d554105ac9757b3dd/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/48b412db473a7c41daead7a66cc6d6a7/AndroidManifest.xml:17:1-29:12
+MERGED from [org.webkit:android-jsc:r245459] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/602ce44111c04c51a61293fac6cff1b6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/931dbcbadec1a7b2cc59ac433094eeb0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5a37c22ec18d133e841c79199d494eb4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/558aa21dd00332a0455fa6753c864067/AndroidManifest.xml:17:1-22:12
+MERGED from [com.tom_roush:pdfbox-android:1.8.10.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b0b7d841b196be1af7eb861ac1d5219a/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7775c98d765312e7abf41c230e9f6e6f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/ebb7933f40f1ec17580ef8974a13b383/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/92d38fac1a1da7ca31f2dbac43adff64/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/cff9f1fbc689eccfcf39eded2224287d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/804cde1e71902c33a24d81d2a05f3891/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fbd4c466ef48b5fd2ae8375f7c52cff1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8034da260ce4e7ea3f82ead1a63a7129/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e70d7e4d22b0b7af6b32710dd00b592/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7dbc578056ec08d0f756588c16b76228/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5d8cb63c389b1691b91303ae45b8949c/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/75ba625a4d38df7fac2a6e2f13a2263d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/aded3b4a70f9a2feed3eb5dd489769d4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d8d4607f80b9934a69cda3635fe7c56d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7d5c3f54149ee09bf1479257984d7d97/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/13cccff9e854d373fd47f503d2fc0b56/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8a1acaf30ea5cc930926868c8d3d5e6c/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.transition:transition:1.1.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fe423c04283f42ae513d4187e0a976f7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/2cfc63e780ced171ef6d06e2df873d58/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/515da1f233ab44b26786fd2b2b92efe1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e48a6a8407c63d98e166154c121969ce/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/37eaab5171d6e53ec1f7331d383c3b38/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b4ac7f169e556eab1fce717d7ff0181b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e25f967c8e3b7c79969da832c3bf2011/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b1e0ad74ab7aecbc0051b9b0e3da6f87/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b13347ecfa31ba2207158a72f9c96152/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/31262ff8d2b982e932132d3e52fa275c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/f4747371f844ae53bdb027831c3cfd94/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e130b38c0597213886435f32f91b2213/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/3829476a10b15d02a3d2aeced114d132/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e28bf21ea9e3c7d83f6b78f4a419d698/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/a32aa39ffa579ddfb05ea8e4a757f113/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d4c0ae60d0e247cdad7ffa19bace353a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e8571e24aa23bba9639f4ce0f2c74ed1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7082cd9738f7d1643341435562f60f6f/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d4ab1bbda9ea6e4cf4ec07080b816929/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/284979a17a032f799bfc4206895daeef/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/c635ba7c7e1e0dcd872e238189474d43/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7d1e8d28ca9273ef1398094984369796/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/775d4e1e53fb8c6abe6981b4508ebae7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/f4a830d671d39f4e33d54d447d31574d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/947a679006173b9588b9909ffdc3abe3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/78a346268e9dca1f5823d2ec2914329d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4378bb5dc43be62768756c1bb36c3203/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6a86602485a5a073f63a1e2da2ed3d46/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7129a16d08c1faf16eb859d7c2e2a815/AndroidManifest.xml:2:1-9:12
 INJECTED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/debug/AndroidManifest.xml:2:1-8:12
@@ -89,8 +111,20 @@ ADDED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app
 		ADDED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:6:22-71
 uses-permission#android.permission.INTERNET
 ADDED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/db5a75f644f55b9b733f89a54c49adc6/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/db5a75f644f55b9b733f89a54c49adc6/AndroidManifest.xml:24:5-67
+MERGED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/a6881cf613118b456dbe5cd7a596853b/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/a6881cf613118b456dbe5cd7a596853b/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5d8cb63c389b1691b91303ae45b8949c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5d8cb63c389b1691b91303ae45b8949c/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:7:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
@@ -103,8 +137,8 @@ ADDED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app
 		ADDED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:9:22-78
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:10:5-80
-MERGED from [com.tom_roush:pdfbox-android:1.8.10.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/057b7b1dc1225c129b4776d4686f1d14/AndroidManifest.xml:11:5-81
-MERGED from [com.tom_roush:pdfbox-android:1.8.10.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/057b7b1dc1225c129b4776d4686f1d14/AndroidManifest.xml:11:5-81
+MERGED from [com.tom_roush:pdfbox-android:1.8.10.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b0b7d841b196be1af7eb861ac1d5219a/AndroidManifest.xml:11:5-81
+MERGED from [com.tom_roush:pdfbox-android:1.8.10.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b0b7d841b196be1af7eb861ac1d5219a/AndroidManifest.xml:11:5-81
 	android:name
 		ADDED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:10:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
@@ -115,32 +149,58 @@ application
 ADDED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:13:5-44:19
 MERGED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:13:5-44:19
 MERGED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:13:5-44:19
+MERGED from [com.google.firebase:firebase-core:16.0.8] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/dcdbedf90f871624d51c5f5176741e32/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.8] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/dcdbedf90f871624d51c5f5176741e32/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5fe6880aa5b7a76ebd3782a5365d18a4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5fe6880aa5b7a76ebd3782a5365d18a4/AndroidManifest.xml:7:5-20
+MERGED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
+MERGED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
 MERGED from [:react-native-device-info] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20:19
 MERGED from [:react-native-device-info] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20:19
 MERGED from [:react-native-splash-screen] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
 MERGED from [:react-native-splash-screen] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
 MERGED from [:react-native-webview] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [:react-native-webview] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
-MERGED from [com.facebook.react:react-native:0.60.5] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/262aad6fcf98fbd80a9b38d6dd3e9b07/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.60.5] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/262aad6fcf98fbd80a9b38d6dd3e9b07/AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/db5a75f644f55b9b733f89a54c49adc6/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/db5a75f644f55b9b733f89a54c49adc6/AndroidManifest.xml:26:5-20
-MERGED from [com.facebook.soloader:soloader:0.6.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7bf8acfe408b27cbd0e3cfa1b5a29f09/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.6.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7bf8acfe408b27cbd0e3cfa1b5a29f09/AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5802d72771d6aeae189f8a94ebba2419/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5802d72771d6aeae189f8a94ebba2419/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/676cb0374234f39407b74b382d46b728/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/676cb0374234f39407b74b382d46b728/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5b61edd8a39787a8f78fc2aede813780/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5b61edd8a39787a8f78fc2aede813780/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fc9461aba3cafcef5340c375cc124ba9/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fc9461aba3cafcef5340c375cc124ba9/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/c6179dbf35fcb031eebeef2648b9aad9/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/c6179dbf35fcb031eebeef2648b9aad9/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b0f555fa01bfb19ca9fe4ebca5e74190/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b0f555fa01bfb19ca9fe4ebca5e74190/AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.react:react-native:0.60.5] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/44f0b47c0dec03273fe193c3fcd0494c/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.60.5] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/44f0b47c0dec03273fe193c3fcd0494c/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/a6881cf613118b456dbe5cd7a596853b/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/a6881cf613118b456dbe5cd7a596853b/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5e7b7ffb423e449d554105ac9757b3dd/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5e7b7ffb423e449d554105ac9757b3dd/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/48b412db473a7c41daead7a66cc6d6a7/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/48b412db473a7c41daead7a66cc6d6a7/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/931dbcbadec1a7b2cc59ac433094eeb0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/931dbcbadec1a7b2cc59ac433094eeb0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7dbc578056ec08d0f756588c16b76228/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7dbc578056ec08d0f756588c16b76228/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/75ba625a4d38df7fac2a6e2f13a2263d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/75ba625a4d38df7fac2a6e2f13a2263d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/aded3b4a70f9a2feed3eb5dd489769d4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/aded3b4a70f9a2feed3eb5dd489769d4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d8d4607f80b9934a69cda3635fe7c56d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d8d4607f80b9934a69cda3635fe7c56d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7d5c3f54149ee09bf1479257984d7d97/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7d5c3f54149ee09bf1479257984d7d97/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/13cccff9e854d373fd47f503d2fc0b56/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/13cccff9e854d373fd47f503d2fc0b56/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8a1acaf30ea5cc930926868c8d3d5e6c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8a1acaf30ea5cc930926868c8d3d5e6c/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d4c0ae60d0e247cdad7ffa19bace353a/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d4c0ae60d0e247cdad7ffa19bace353a/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e8571e24aa23bba9639f4ce0f2c74ed1/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e8571e24aa23bba9639f4ce0f2c74ed1/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/c6179dbf35fcb031eebeef2648b9aad9/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d4c0ae60d0e247cdad7ffa19bace353a/AndroidManifest.xml:22:18-86
 	android:label
 		ADDED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:15:7-39
 		ADDED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml:15:7-39
@@ -203,18 +263,32 @@ uses-sdk
 INJECTED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/main/AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-core:16.0.8] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/dcdbedf90f871624d51c5f5176741e32/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.8] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/dcdbedf90f871624d51c5f5176741e32/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5fe6880aa5b7a76ebd3782a5365d18a4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5fe6880aa5b7a76ebd3782a5365d18a4/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-community_picker] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_picker] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-pdf-lib] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-pdf-lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-pdf-lib] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-pdf-lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-device-info] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-device-info] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-svg] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-svg] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_async-storage] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_async-storage] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_masked-view] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_masked-view] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-html-to-pdf] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-html-to-pdf/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-html-to-pdf] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-html-to-pdf/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-splash-screen] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -223,94 +297,124 @@ MERGED from [:react-native-vector-icons] /home/binaryoverload/React-Native/Fitne
 MERGED from [:react-native-vector-icons] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-webview] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-webview] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.60.5] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/262aad6fcf98fbd80a9b38d6dd3e9b07/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.60.5] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/262aad6fcf98fbd80a9b38d6dd3e9b07/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/709a6e4f3e5b1ca86ce771f64c98796b/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/709a6e4f3e5b1ca86ce771f64c98796b/AndroidManifest.xml:7:5-9:41
-MERGED from [com.tom_roush:pdfbox-android:1.8.10.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/057b7b1dc1225c129b4776d4686f1d14/AndroidManifest.xml:7:5-9:41
-MERGED from [com.tom_roush:pdfbox-android:1.8.10.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/057b7b1dc1225c129b4776d4686f1d14/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/db5a75f644f55b9b733f89a54c49adc6/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/db5a75f644f55b9b733f89a54c49adc6/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/9dc4f07ffcb170542eab1e6866e424c9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/9dc4f07ffcb170542eab1e6866e424c9/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/38a702aa270ade2e6603d4e27cfe8608/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/38a702aa270ade2e6603d4e27cfe8608/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/3eebddfaa8d8cb5f3a5209d8d68b5c1f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/3eebddfaa8d8cb5f3a5209d8d68b5c1f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/ab78cd145e164aa2778b038e5e08b7db/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/ab78cd145e164aa2778b038e5e08b7db/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8d8f47f3bbf6286b7d74ef6374240412/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8d8f47f3bbf6286b7d74ef6374240412/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d988d8b94a50927644d7da991fcbf71f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d988d8b94a50927644d7da991fcbf71f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e1b6e317d9f8036248cfad31162db408/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e1b6e317d9f8036248cfad31162db408/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/f052d64abe08000843eb6538d00fbb76/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/f052d64abe08000843eb6538d00fbb76/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7bf8acfe408b27cbd0e3cfa1b5a29f09/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7bf8acfe408b27cbd0e3cfa1b5a29f09/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.transition:transition:1.1.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/757742488f43b9c5461ccb39ca273a1f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.1.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/757742488f43b9c5461ccb39ca273a1f/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5802d72771d6aeae189f8a94ebba2419/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5802d72771d6aeae189f8a94ebba2419/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/676cb0374234f39407b74b382d46b728/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/676cb0374234f39407b74b382d46b728/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5b61edd8a39787a8f78fc2aede813780/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5b61edd8a39787a8f78fc2aede813780/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fc9461aba3cafcef5340c375cc124ba9/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fc9461aba3cafcef5340c375cc124ba9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/01acabdc7041b2f37c72254b6290e60a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/01acabdc7041b2f37c72254b6290e60a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d1aea665abf0bdc4cce5c7c18c78a9cc/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d1aea665abf0bdc4cce5c7c18c78a9cc/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5660a837652dcca69f7e76e7caf3936c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5660a837652dcca69f7e76e7caf3936c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/eb2fe030f3a5047dfd9cd893a692f247/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/eb2fe030f3a5047dfd9cd893a692f247/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/0f5fb0632520c3946209399d72d5fe15/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/0f5fb0632520c3946209399d72d5fe15/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/ecdc80d95e2205b998946a9af27bb64f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/ecdc80d95e2205b998946a9af27bb64f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b48adf9418d14a2bf98809bb950a5207/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b48adf9418d14a2bf98809bb950a5207/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d3fc23bef82f350c687d48f53947961a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d3fc23bef82f350c687d48f53947961a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5a12e0d087a1e1aa63de4fde8467094b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5a12e0d087a1e1aa63de4fde8467094b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/ac8b7288a7864a3ce1c87066325d0b2b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/ac8b7288a7864a3ce1c87066325d0b2b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7757bf6b61ed0b676d01d503dcdd3497/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7757bf6b61ed0b676d01d503dcdd3497/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8c2309875b5a1472eaed8b7d4d64477a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8c2309875b5a1472eaed8b7d4d64477a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4b078eab575aab79cffa9f777baa5549/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4b078eab575aab79cffa9f777baa5549/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/c6179dbf35fcb031eebeef2648b9aad9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/c6179dbf35fcb031eebeef2648b9aad9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b0f555fa01bfb19ca9fe4ebca5e74190/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b0f555fa01bfb19ca9fe4ebca5e74190/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d901377262e4d7bdf8a037fd6ede01d5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d901377262e4d7bdf8a037fd6ede01d5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/57524efa5f21b742505da4bc8819b940/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/57524efa5f21b742505da4bc8819b940/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/f4508008630c274620d56ec57873c432/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/f4508008630c274620d56ec57873c432/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/82538302b5f07418e62867474f2a2fca/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/82538302b5f07418e62867474f2a2fca/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fc02eaaf4d080d3303910d41fa430871/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fc02eaaf4d080d3303910d41fa430871/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5b189ea610e8ad3efd575618b0d749ec/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5b189ea610e8ad3efd575618b0d749ec/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/3fc1a90c3a129f7b39e1526fbe567d91/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/3fc1a90c3a129f7b39e1526fbe567d91/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d1191e8d0103bb192ff682d3f915e564/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d1191e8d0103bb192ff682d3f915e564/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/25675b30b3a8f7e12b0ca1e569615043/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/25675b30b3a8f7e12b0ca1e569615043/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5c8a226d412c4ba0889265002f7cfc77/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5c8a226d412c4ba0889265002f7cfc77/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/88f91681eda718552f180b51cbb348ea/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/88f91681eda718552f180b51cbb348ea/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.60.5] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/44f0b47c0dec03273fe193c3fcd0494c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.5] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/44f0b47c0dec03273fe193c3fcd0494c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/a6881cf613118b456dbe5cd7a596853b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/a6881cf613118b456dbe5cd7a596853b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5e7b7ffb423e449d554105ac9757b3dd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5e7b7ffb423e449d554105ac9757b3dd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/48b412db473a7c41daead7a66cc6d6a7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/48b412db473a7c41daead7a66cc6d6a7/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/602ce44111c04c51a61293fac6cff1b6/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/602ce44111c04c51a61293fac6cff1b6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/931dbcbadec1a7b2cc59ac433094eeb0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/931dbcbadec1a7b2cc59ac433094eeb0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5a37c22ec18d133e841c79199d494eb4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5a37c22ec18d133e841c79199d494eb4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/558aa21dd00332a0455fa6753c864067/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/558aa21dd00332a0455fa6753c864067/AndroidManifest.xml:20:5-43
+MERGED from [com.tom_roush:pdfbox-android:1.8.10.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b0b7d841b196be1af7eb861ac1d5219a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tom_roush:pdfbox-android:1.8.10.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b0b7d841b196be1af7eb861ac1d5219a/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7775c98d765312e7abf41c230e9f6e6f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7775c98d765312e7abf41c230e9f6e6f/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/ebb7933f40f1ec17580ef8974a13b383/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/ebb7933f40f1ec17580ef8974a13b383/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/92d38fac1a1da7ca31f2dbac43adff64/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/92d38fac1a1da7ca31f2dbac43adff64/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/cff9f1fbc689eccfcf39eded2224287d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/cff9f1fbc689eccfcf39eded2224287d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/804cde1e71902c33a24d81d2a05f3891/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/804cde1e71902c33a24d81d2a05f3891/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fbd4c466ef48b5fd2ae8375f7c52cff1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fbd4c466ef48b5fd2ae8375f7c52cff1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8034da260ce4e7ea3f82ead1a63a7129/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8034da260ce4e7ea3f82ead1a63a7129/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e70d7e4d22b0b7af6b32710dd00b592/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e70d7e4d22b0b7af6b32710dd00b592/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7dbc578056ec08d0f756588c16b76228/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7dbc578056ec08d0f756588c16b76228/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5d8cb63c389b1691b91303ae45b8949c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5d8cb63c389b1691b91303ae45b8949c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/75ba625a4d38df7fac2a6e2f13a2263d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/75ba625a4d38df7fac2a6e2f13a2263d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/aded3b4a70f9a2feed3eb5dd489769d4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/aded3b4a70f9a2feed3eb5dd489769d4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d8d4607f80b9934a69cda3635fe7c56d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d8d4607f80b9934a69cda3635fe7c56d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7d5c3f54149ee09bf1479257984d7d97/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7d5c3f54149ee09bf1479257984d7d97/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/13cccff9e854d373fd47f503d2fc0b56/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/13cccff9e854d373fd47f503d2fc0b56/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8a1acaf30ea5cc930926868c8d3d5e6c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8a1acaf30ea5cc930926868c8d3d5e6c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fe423c04283f42ae513d4187e0a976f7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fe423c04283f42ae513d4187e0a976f7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/2cfc63e780ced171ef6d06e2df873d58/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/2cfc63e780ced171ef6d06e2df873d58/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/515da1f233ab44b26786fd2b2b92efe1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/515da1f233ab44b26786fd2b2b92efe1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e48a6a8407c63d98e166154c121969ce/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e48a6a8407c63d98e166154c121969ce/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/37eaab5171d6e53ec1f7331d383c3b38/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/37eaab5171d6e53ec1f7331d383c3b38/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b4ac7f169e556eab1fce717d7ff0181b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b4ac7f169e556eab1fce717d7ff0181b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e25f967c8e3b7c79969da832c3bf2011/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e25f967c8e3b7c79969da832c3bf2011/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b1e0ad74ab7aecbc0051b9b0e3da6f87/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b1e0ad74ab7aecbc0051b9b0e3da6f87/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b13347ecfa31ba2207158a72f9c96152/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b13347ecfa31ba2207158a72f9c96152/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/31262ff8d2b982e932132d3e52fa275c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/31262ff8d2b982e932132d3e52fa275c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/f4747371f844ae53bdb027831c3cfd94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/f4747371f844ae53bdb027831c3cfd94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e130b38c0597213886435f32f91b2213/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e130b38c0597213886435f32f91b2213/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/3829476a10b15d02a3d2aeced114d132/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/3829476a10b15d02a3d2aeced114d132/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e28bf21ea9e3c7d83f6b78f4a419d698/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e28bf21ea9e3c7d83f6b78f4a419d698/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/a32aa39ffa579ddfb05ea8e4a757f113/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/a32aa39ffa579ddfb05ea8e4a757f113/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d4c0ae60d0e247cdad7ffa19bace353a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d4c0ae60d0e247cdad7ffa19bace353a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e8571e24aa23bba9639f4ce0f2c74ed1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/e8571e24aa23bba9639f4ce0f2c74ed1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7082cd9738f7d1643341435562f60f6f/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7082cd9738f7d1643341435562f60f6f/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d4ab1bbda9ea6e4cf4ec07080b816929/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d4ab1bbda9ea6e4cf4ec07080b816929/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/284979a17a032f799bfc4206895daeef/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/284979a17a032f799bfc4206895daeef/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/c635ba7c7e1e0dcd872e238189474d43/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/c635ba7c7e1e0dcd872e238189474d43/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7d1e8d28ca9273ef1398094984369796/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7d1e8d28ca9273ef1398094984369796/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/775d4e1e53fb8c6abe6981b4508ebae7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/775d4e1e53fb8c6abe6981b4508ebae7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/f4a830d671d39f4e33d54d447d31574d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/f4a830d671d39f4e33d54d447d31574d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/947a679006173b9588b9909ffdc3abe3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/947a679006173b9588b9909ffdc3abe3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/78a346268e9dca1f5823d2ec2914329d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/78a346268e9dca1f5823d2ec2914329d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4378bb5dc43be62768756c1bb36c3203/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4378bb5dc43be62768756c1bb36c3203/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6a86602485a5a073f63a1e2da2ed3d46/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6a86602485a5a073f63a1e2da2ed3d46/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7129a16d08c1faf16eb859d7c2e2a815/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7129a16d08c1faf16eb859d7c2e2a815/AndroidManifest.xml:5:5-7:41
 INJECTED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -323,6 +427,56 @@ uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
 		ADDED from /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5d8cb63c389b1691b91303ae45b8949c/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5d8cb63c389b1691b91303ae45b8949c/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5d8cb63c389b1691b91303ae45b8949c/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5d8cb63c389b1691b91303ae45b8949c/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:29:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+meta-data#com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [:react-native-firebase] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
 receiver#com.learnium.RNDeviceInfo.RNDeviceReceiver
 ADDED from [:react-native-device-info] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-19:20
 	android:enabled
@@ -354,20 +508,102 @@ ADDED from [:react-native-webview] /home/binaryoverload/React-Native/Fitness--Mi
 	android:name
 		ADDED from [:react-native-webview] /home/binaryoverload/React-Native/Fitness--MiBand/Fitness/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/db5a75f644f55b9b733f89a54c49adc6/AndroidManifest.xml:23:5-82
+ADDED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/a6881cf613118b456dbe5cd7a596853b/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/db5a75f644f55b9b733f89a54c49adc6/AndroidManifest.xml:23:22-79
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5802d72771d6aeae189f8a94ebba2419/AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5802d72771d6aeae189f8a94ebba2419/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5802d72771d6aeae189f8a94ebba2419/AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/5802d72771d6aeae189f8a94ebba2419/AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fc9461aba3cafcef5340c375cc124ba9/AndroidManifest.xml:23:9-25:69
+		ADDED from [com.google.android.gms:play-services-iid:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/a6881cf613118b456dbe5cd7a596853b/AndroidManifest.xml:23:22-79
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:30:13-32:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fc9461aba3cafcef5340c375cc124ba9/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:32:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/fc9461aba3cafcef5340c375cc124ba9/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/6b629e81d1b141ae159344fe8bbfee3d/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4a0847982267818bf60c3898642db3ac/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/48b412db473a7c41daead7a66cc6d6a7/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/48b412db473a7c41daead7a66cc6d6a7/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/48b412db473a7c41daead7a66cc6d6a7/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/48b412db473a7c41daead7a66cc6d6a7/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/b22652fbe42338f9fbaa8b5ee53fb198/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:35:13-100
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/d2fb0bccb645f87798f039b5e8ba625c/AndroidManifest.xml:49:13-87
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/4e32ac795548841775b86472c14c4ed4/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8a1acaf30ea5cc930926868c8d3d5e6c/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8a1acaf30ea5cc930926868c8d3d5e6c/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/binaryoverload/.gradle/caches/transforms-2/files-2.1/8a1acaf30ea5cc930926868c8d3d5e6c/AndroidManifest.xml:24:13-58

@@ -13,8 +13,16 @@ import java.util.ArrayList;
 import com.sbp.BuildConfig;
 import com.sbp.R;
 
+// @react-native-community/async-storage
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+// @react-native-community/masked-view
+import org.reactnative.maskedview.RNCMaskedViewPackage;
+// @react-native-community/picker
+import com.reactnativecommunity.picker.RNCPickerPackage;
 // react-native-device-info
 import com.learnium.RNDeviceInfo.RNDeviceInfo;
+// react-native-firebase
+import io.invertase.firebase.RNFirebasePackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-html-to-pdf
@@ -23,6 +31,8 @@ import com.christopherdro.htmltopdf.RNHTMLtoPDFPackage;
 import com.hopding.pdflib.PDFLibPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
+// react-native-safe-area-context
+import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
 // react-native-splash-screen
@@ -66,11 +76,16 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(),
+      new AsyncStoragePackage(),
+      new RNCMaskedViewPackage(),
+      new RNCPickerPackage(),
       new RNDeviceInfo(),
+      new RNFirebasePackage(),
       new RNGestureHandlerPackage(),
       new RNHTMLtoPDFPackage(),
       new PDFLibPackage(),
       new ReanimatedPackage(),
+      new SafeAreaContextPackage(),
       new RNScreensPackage(),
       new SplashScreenReactPackage(),
       new SvgPackage(),

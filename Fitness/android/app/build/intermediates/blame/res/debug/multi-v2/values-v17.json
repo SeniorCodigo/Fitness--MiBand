@@ -4,7 +4,7 @@
             "outputFile": "/home/binaryoverload/React-Native/Fitness--MiBand/Fitness/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "/home/binaryoverload/.gradle/caches/transforms-2/files-2.1/9dc4f07ffcb170542eab1e6866e424c9/res/values-v17/values-v17.xml",
+                    "source": "/home/binaryoverload/.gradle/caches/transforms-2/files-2.1/7775c98d765312e7abf41c230e9f6e6f/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

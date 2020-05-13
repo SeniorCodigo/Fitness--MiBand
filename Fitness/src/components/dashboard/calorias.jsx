@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import {
   Button,
   Text,
@@ -11,8 +11,10 @@ import {
   Image,
   View,
 } from "react-native";
-import { Chevron } from "react-native-shapes";
-//import { Ionicons } from "@expo/vector-icons";
+
+import { createStackNavigator } from "react-navigation";
+import { Medic } from "./medic";
+
 import RNPickerSelect, { defaultStyles } from "react-native-picker-select";
 // import RNPickerSelect, { defaultStyles } from './debug';
 
@@ -35,7 +37,7 @@ const alimentos = [
   },
 ];
 
-export default class App extends React.Component {
+export default class App extends Component {
   constructor(props) {
     super(props);
 
@@ -80,6 +82,11 @@ export default class App extends React.Component {
 
     this.InputAccessoryView = this.InputAccessoryView.bind(this);
   }
+
+  static navigationOptions = {
+    header: null,
+  };
+
   getCalorias = () => {
     this.state.conCalorias = 0;
     const conCalorias = this.state.conCalorias + this.state.comida;
@@ -154,28 +161,26 @@ export default class App extends React.Component {
     //this.state.conCalorias = this.state.conCalorias + this.state.favSport0;
     return (
       <View style={styles.container}>
+        <TouchableOpacity
+          style={styles.buttonEnabled}
+          onPress={() => this.props.navigation.navigate("Medic")}
+        >
+          <Text style={styles.buttonText}>
+            Referencias médicas {this.state.total}
+          </Text>
+        </TouchableOpacity>
         <ScrollView
           style={styles.scrollContainer}
           contentContainerStyle={styles.scrollContentContainer}
         >
           <Text>Peso</Text>
           <TextInput
-            style={
-              Platform.OS === "ios"
-                ? pickerSelectStyles.inputIOS
-                : pickerSelectStyles.inputAndroid
-            }
             placeholder="Peso"
             values={this.state.peso}
             onChangeText={(text) => this.setState({ peso: text })}
           />
           <Text>Edad</Text>
           <TextInput
-            style={
-              Platform.OS === "ios"
-                ? pickerSelectStyles.inputIOS
-                : pickerSelectStyles.inputAndroid
-            }
             placeholder="Estatura"
             values={this.state.estatura}
             onChangeText={(text) => this.setState({ estatura: text })}
@@ -226,6 +231,12 @@ export default class App extends React.Component {
     );
   }
 }
+
+/*const MedicStackNavigator = createStackNavigator({
+  Medic: {
+    screen: MedicScreen,
+  },
+});*/
 
 const pickerSelectStyles = StyleSheet.create({
   inputIOS: {

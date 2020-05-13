@@ -1,4 +1,5 @@
 apply plugin: "com.android.application"
+apply plugin: 'com.google.gms.google-services'
 
 import com.android.build.OutputFile
 
@@ -193,12 +194,18 @@ android {
 }
 
 dependencies {
+    implementation project(':@react-native-community_async-storage')
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+    implementation project(':react-native-firebase')
+    implementation project(':@react-native-community_picker')
     implementation project(':react-native-pdf-lib')
     implementation project(':react-native-device-info')
     implementation project(':react-native-svg')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:0.60.5"  // From node_modules
     implementation 'org.apache.commons:commons-lang3:3.6'
+    implementation "com.google.android.gms:play-services-base:16.1.0"
+    implementation "com.google.firebase:firebase-core:16.0.8"
 
     if (enableHermes) {
       def hermesPath = "../../node_modules/hermesvm/android/";

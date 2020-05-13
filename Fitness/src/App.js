@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import MedicionesScreen from "./components/dashboard/index";
 import ActividadesScreen from "./components/dashboard/actividades";
-import CaloriasScreen from "./components/dashboard/calorias";
+import kalMedicScreen from "./components/dashboard/kcalMedic";
+import Yeah from "./components/dashboard/yeah";
 
 import { createMaterialBottomTabNavigator } from "react-navigation-material-bottom-tabs";
 import { createMaterialTopTabNavigator } from "react-navigation";
@@ -16,12 +17,13 @@ export default createMaterialTopTabNavigator(
   {
     Mediciones: { screen: MedicionesScreen },
     Actividades: { screen: ActividadesScreen },
-    Calorias: { screen: CaloriasScreen }
+    Calorias: { screen: kalMedicScreen },
+    //Yeah: { screen: Yeah },
   },
   {
     intialRouteName: "Mediciones",
     //order: ["Mediciones", "Actividades", "Calorias"],
-    activeTintColor: "#33AFFF"
+    activeTintColor: "#33AFFF",
     //shifting: true
   }
 );

@@ -3,6 +3,9 @@ package com.sbp;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+import io.invertase.firebase.RNFirebasePackage;
+import com.reactnativecommunity.picker.RNCPickerPackage;
 import com.hopding.pdflib.PDFLibPackage;
 import com.learnium.RNDeviceInfo.RNDeviceInfo;
 import com.swmansion.rnscreens.RNScreensPackage;
@@ -21,11 +24,11 @@ import java.util.List;
 import static com.sbp.common.ModuleStorage.getModuleStorage;
 
 /**
- *  Inits ReactNativeHost instance including registration of main native packages
+ * Inits ReactNativeHost instance including registration of main native packages
  *
- * @author  Spayker
+ * @author Spayker
  * @version 1.0
- * @since   06/01/2019
+ * @since 06/01/2019
  */
 public class MainApplication extends Application implements ReactApplication {
 
@@ -38,14 +41,9 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       ModuleStorage appModuleStorage = getModuleStorage();
-      return Arrays.asList(
-              new SvgPackage(),
-              new RNHTMLtoPDFPackage(),
-              appModuleStorage.getMainReactPackage(),
-              appModuleStorage.getDeviceConnectorPackage(),
-              appModuleStorage.getHeartBeatMeasurerPackage(),
-              appModuleStorage.getInfoPackage()
-      );
+      return Arrays.asList(new SvgPackage(), new RNHTMLtoPDFPackage(), new AsyncStoragePackage(),
+          appModuleStorage.getMainReactPackage(), appModuleStorage.getDeviceConnectorPackage(),
+          appModuleStorage.getHeartBeatMeasurerPackage(), appModuleStorage.getInfoPackage());
     }
 
     @Override

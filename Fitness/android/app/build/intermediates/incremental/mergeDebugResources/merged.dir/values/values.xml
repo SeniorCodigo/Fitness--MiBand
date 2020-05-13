@@ -59,6 +59,7 @@
     <color name="material_grey_900">#ff212121</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
     <color name="primary_dark">#000</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
@@ -187,6 +188,10 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="subtitle_corner_radius">2dp</dimen>
+    <dimen name="subtitle_outline_width">2dp</dimen>
+    <dimen name="subtitle_shadow_offset">2dp</dimen>
+    <dimen name="subtitle_shadow_radius">2dp</dimen>
     <dimen name="tooltip_corner_radius">2dp</dimen>
     <dimen name="tooltip_horizontal_padding">16dp</dimen>
     <dimen name="tooltip_margin">8dp</dimen>
@@ -326,6 +331,13 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="default_web_client_id" translatable="false">1041414400068-2qgu8sjv85e44fqi4bqsil9gcrrv0fg6.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fitness-d8a81.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1041414400068</string>
+    <string name="google_api_key" translatable="false">AIzaSyBGCYHVPo5QRkfYbJyp0BfxofFFTfAVevs</string>
+    <string name="google_app_id" translatable="false">1:1041414400068:android:1abe5097c7938a4a7f7411</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBGCYHVPo5QRkfYbJyp0BfxofFFTfAVevs</string>
+    <string name="google_storage_bucket" translatable="false">fitness-d8a81.appspot.com</string>
     <string name="header_description" translatable="false">Heading</string>
     <string name="image_description" translatable="false">Image</string>
     <string name="imagebutton_description" translatable="false">Button, Image</string>
@@ -335,6 +347,7 @@
     <string name="menuitem_description" translatable="false">Menu Item</string>
     <string name="mi_band_device_name">Mi Band 3</string>
     <string name="progressbar_description" translatable="false">Progress Bar</string>
+    <string name="project_id" translatable="false">fitness-d8a81</string>
     <string name="radiogroup_description" translatable="false">Radio Group</string>
     <string name="rn_tab_description" translatable="false">Tab</string>
     <string name="scrollbar_description" translatable="false">Scroll Bar</string>
@@ -1724,12 +1737,17 @@
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media"/>
     <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Media"/>
     <style name="TextAppearance.Compat.Notification.Time">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media"/>
     <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TextAppearance.Compat.Notification.Title.Media"/>
     <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">

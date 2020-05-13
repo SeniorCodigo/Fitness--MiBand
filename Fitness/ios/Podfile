@@ -47,6 +47,12 @@ target 'sbp' do
 
   pod 'RNReactNativePdfLib', :path => '../node_modules/react-native-pdf-lib'
 
+  pod 'RNCPicker', :path => '../node_modules/@react-native-community/picker'
+
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
+
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
   target 'sbpTests' do
     inherit! :search_paths
     # Pods for testing
