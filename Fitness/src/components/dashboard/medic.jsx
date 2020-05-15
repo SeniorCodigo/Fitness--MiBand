@@ -41,6 +41,7 @@ export default class Medic extends Component {
       cena2: "",
       calCena2: 0,
       values: "",
+      caloriasRes: 0,
     };
   }
 
@@ -67,7 +68,9 @@ export default class Medic extends Component {
       [this.state.comida2, this.state.calCom2],
       [this.state.cena1, this.state.calCena1],
       [this.state.cena2, this.state.calCena2],
+      [this.state.caloriasRes],
     ];
+    //let cal = [this.state.calorias];
     //await AsyncStorage.setItem("first", JSON.stringify(firstPair));
     /*await AsyncStorage.multiSet(
         "first",
@@ -84,6 +87,7 @@ export default class Medic extends Component {
         JSON.stringify(sixthPair)
       );*/
     await AsyncStorage.setItem("key", JSON.stringify(key));
+    //await AsyncStorage.setItem("cal", JSON.stringify(cal));
 
     /*alert(
       firstPair + secondPair + thirdPair + fourthPair + fithPair + sixthPair
@@ -105,7 +109,9 @@ export default class Medic extends Component {
       });
     });*/
     let key = await AsyncStorage.getItem("key");
+    //let cal = await AsyncStorage.getItem("cal");
     let d = JSON.parse(key);
+    //let c = JSON.parse(cal);
     this.setState({ values: d });
     alert(d);
 
@@ -128,10 +134,7 @@ export default class Medic extends Component {
             <Text>Desayuno</Text>
             <View style={styles.spacing} />
             <Text>Opción 1</Text>
-            <View style={styles.package}>
-              <Text style={styles.sensorField}>Valores:</Text>
-              <Text style={styles.sensorField}>{this.state.values[1]}</Text>
-            </View>
+            <Text>{this.state.values}</Text>
 
             <TextInput
               placeholder="Alimento"
@@ -212,6 +215,14 @@ export default class Medic extends Component {
               placeholder="Calorias"
               style={styles.input}
               onChangeText={(text) => this.setState({ calCena2: text })}
+            />
+            <View style={styles.package}>
+              <Text style={styles.sensorField}>Calorias</Text>
+            </View>
+            <TextInput
+              placeholder="Calorias que puedes consumir"
+              style={styles.input}
+              onChangeText={(text) => this.setState({ caloriasRes: text })}
             />
 
             <Button title="Guardar" color="#33AFFF" onPress={this.saveData} />

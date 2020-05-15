@@ -72,30 +72,11 @@ export default class App extends React.Component {
       ],
       alimentos: [
         {
-          label: "Huevo",
-          value: 74,
-        },
-        {
-          label: "Pera",
-          value: 55,
-        },
-        {
-          label: "Pollo 100 g",
-          value: 195,
-        },
-        {
-          label: "Tortilla de maíz",
-          value: 52,
-        },
-        {
-          label: "Pizza una rebanada",
-          value: 298,
-        },
-        {
-          label: "Queso",
-          value: 298,
+          label: "Carga la base de datos en MOSTRAR",
+          value: 0,
         },
       ],
+      calMed: 0,
 
       numbers: [
         {
@@ -136,13 +117,17 @@ export default class App extends React.Component {
 
   getDataMedic = async () => {
     let values = await AsyncStorage.getItem("key");
+    //var c = await AsyncStorage.getItem("cal");
 
     let d = JSON.parse(values) + "";
     //let d = values + "";
     //let sentences = d.split(",");
     this.setState({ medAlimentos: d });
+
+    //this.setState({ calMed: c });
     let sentences = this.state.medAlimentos.split(",");
     //alert(sentences[1]);
+    this.setState({ calRestantes: sentences[12] });
     var yeah = [];
     var alName = [];
     var cal = [];
@@ -321,7 +306,7 @@ export default class App extends React.Component {
         >
           <View style={styles.package}>
             <Text style={styles.sensorField}>MedRef: </Text>
-            <Text style={styles.sensorField}>{this.state.medAlimentos}</Text>
+            <Text style={styles.sensorField}>{this.state.medAlimentos[6]}</Text>
           </View>
           <View style={styles.package}>
             <Text style={styles.sensorField}>Label: </Text>
@@ -358,6 +343,10 @@ export default class App extends React.Component {
           <View style={styles.package}>
             <Text style={styles.sensorField}>Calorias Consumidas:</Text>
             <Text style={styles.sensorField}>{this.state.chin}</Text>
+          </View>
+          <View style={styles.package}>
+            <Text style={styles.sensorField}>Calorias Restantes:</Text>
+            <Text style={styles.sensorField}>{this.state.calMed}</Text>
           </View>
           <View style={styles.spacing} />
           <Button
