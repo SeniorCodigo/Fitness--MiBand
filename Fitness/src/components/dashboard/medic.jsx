@@ -63,15 +63,15 @@ export default class Medic extends Component {
       [this.state.comida2, this.state.calCom2],
       [this.state.cena1, this.state.calCena1],
       [this.state.cena2, this.state.calCena2],
-      [this.state.caloriasRes],
     ];
 
     await AsyncStorage.setItem("key", JSON.stringify(key));
+    alert("Los valores se guardaron satisfactoriamente");
   };
 
   saveDataCal = async () => {
     //cargar base de datos con valores por default
-    //let calorias = ["5000"];
+    //let calorias = [3000];
 
     let calorias = [this.state.caloriasRes];
     //resetear las calorías consumidas para cuando se ingresen nuevas calorías restantes
@@ -105,6 +105,22 @@ export default class Medic extends Component {
   combinedFunctionShow = () => {
     this.showData();
     this.showDataCal();
+  };
+  remove = async () => {
+    let key = [["", 0], ["", 0], ["", 0], ["", 0], ["", 0], ["", 0]];
+
+    await AsyncStorage.setItem("key", JSON.stringify(key));
+    alert("Los valores han sido removidos satisfactoriamente");
+  };
+  removeCal = async () => {
+    let cal = [0];
+
+    await AsyncStorage.setItem("kcal", JSON.stringify(cal));
+    //alert("Los valores han sido removidos satisfactoriamente");
+  };
+  combinedFunctionRemove = () => {
+    this.remove();
+    this.removeCal();
   };
 
   IMC = () => {
@@ -242,9 +258,9 @@ export default class Medic extends Component {
             />
             <View style={styles.spacing} />
             <Button
-              title="Mostrar"
-              color="#33AFFF"
-              onPress={this.combinedFunctionShow}
+              title="Eliminar dieta"
+              color="red"
+              onPress={this.combinedFunctionRemove}
             />
           </View>
         </ScrollView>

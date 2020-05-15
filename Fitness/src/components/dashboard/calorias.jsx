@@ -41,6 +41,7 @@ export default class App extends React.Component {
       chuchis: 0,
       medAlimentos: "",
       fullCal: 0,
+      outOfDiet: "",
 
       alimentos: [
         {
@@ -87,15 +88,17 @@ export default class App extends React.Component {
     let d = JSON.parse(values) + "";
     let c = JSON.parse(valuesc) + "";
     let e = JSON.parse(valuese) + "";
+    //alert(typeof e);
 
     this.setState({ medAlimentos: d });
 
     //Se splitea los campos
     let sentences = this.state.medAlimentos.split(",");
-    //El subindice 12 es donde se enuentra calorías restantes provinientes de la pantalla Medic
     this.setState({ fullCal: c });
     this.setState({ calRestantes: c });
-    this.setState({ chin: e });
+    this.setState({ chin: parseInt(e) });
+    //alert(this.state.chin);
+
     var yeah = [];
     var alName = [];
     var cal = [];
@@ -149,13 +152,21 @@ export default class App extends React.Component {
   };
 
   getCalorias = () => {
-    let chin = AsyncStorage.getItem("kcalConsumidas");
-    //alert(chin);
+    //let valKcalConsumidas = await AsyncStorage.getItem("kcalConsumidas");
+
     this.state.conCalorias = 0;
     const conCalorias = this.state.conCalorias + this.state.comida;
     //alert(this.state.calRestantes);
     this.state.calRestantes -= conCalorias;
-    chin = this.state.fullCal - this.state.calRestantes;
+    var chin = 0;
+    var chin1 = 0;
+    chin1 = parseInt(this.state.chin);
+    //alert(typeof this.state.chin + " " + typeof chin);
+    chin = parseInt(this.state.fullCal) - parseInt(this.state.calRestantes);
+    //chin += chin1;
+
+    //chin += chin1;
+    //alert(this.state.fullCal + " " + this.state.calRestantes);
 
     //alert(chin);
     //chin -= this.state.calRestantes;
@@ -182,6 +193,24 @@ export default class App extends React.Component {
     //alert(calorias);
 
     await AsyncStorage.setItem("kcal", JSON.stringify(calorias));
+  };
+
+  setOutOfDiet = async () => {
+    let outDiet = [this.state.outOfDiet];
+    alert("Alimento guardardo");
+
+    //alert(calorias);
+
+    await AsyncStorage.setItem("outDiet", JSON.stringify(outDiet));
+  };
+
+  getOutOfDiet = async () => {
+    let getOutDiet = await AsyncStorage.getItem("outDiet");
+    let d = JSON.parse(getOutDiet);
+
+    alert("Alimento: " + d);
+
+    //alert(calorias);
   };
 
   IMC = () => {
@@ -302,7 +331,6 @@ export default class App extends React.Component {
           <View style={styles.spacing} />
           <Text>Seleccionar alimentos</Text>
           <RNPickerSelect
-            onPress={this.combinedFunction}
             placeholder={placeholder}
             items={this.state.alimentos}
             onValueChange={(value) => {
@@ -314,6 +342,21 @@ export default class App extends React.Component {
           <View>
             <Text>{this.state.comida} Kcal</Text>
           </View>
+          <View style={styles.spacing} />
+          <Text>Anotar alimento fuera de su dieta</Text>
+          <TextInput
+            placeholder="Alimento"
+            values={this.state.peso}
+            onChangeText={(text) => this.setState({ outOfDiet: text })}
+          />
+          <View style={styles.spacing} />
+          <Button title="Guardar" color="#33AFFF" onPress={this.setOutOfDiet} />
+          <View style={styles.spacing} />
+          <Button
+            title="Mostrar alimento"
+            color="#33AFFF"
+            onPress={this.getOutOfDiet}
+          />
         </ScrollView>
       </View>
     );
