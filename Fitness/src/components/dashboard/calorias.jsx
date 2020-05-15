@@ -63,10 +63,11 @@ export default class App extends React.Component {
       medAlimentos: "",
       fitAli: [],
       kaka: [(label = []), (value = [])],
+      yes: [{ Label: "yes", value: 0 }],
       ali1: [
         {
-          label: "Huevos",
-          value: 184,
+          label: "Perra",
+          value: 0,
         },
       ],
       alimentos: [
@@ -131,13 +132,13 @@ export default class App extends React.Component {
         //this.state.fitAli = parseInt(sentences[i]);
         yeah.push(sentences[i]);
         //cal.push(yeah[i]);
-        cal.push(sentences[i]);
+        cal.push(parseInt(yeah[i]));
         //alert(yeah);
 
         //this.setState({ fitAli: parseInt(sentences[i]) });
       } else {
         yeah.push(sentences[i]);
-        alName.push(yeah[i]);
+        alName.push(JSON.stringify(yeah[i]));
         //alName.push(sentences[i]);
         //this.setState({ fitAli: sentences[i] });
       }
@@ -162,7 +163,7 @@ export default class App extends React.Component {
       ali1: {
         // object that we want to update
         ...prevState.ali1, // keep all other key-value pairs
-        label: JSON.stringify(alName), // update the value of specific key
+        label: JSON.parse(JSON.stringify(alName)), // update the value of specific key
       },
     }));
 
@@ -170,7 +171,7 @@ export default class App extends React.Component {
       ali1: {
         // object that we want to update
         ...prevState.ali1, // keep all other key-value pairs
-        value: parseInt(cal), // update the value of specific key
+        value: cal, // update the value of specific key
       },
     }));
     //alimentos.label = alName;
@@ -181,20 +182,37 @@ export default class App extends React.Component {
     //this.state.alimentos.label = alName;
     //this.setState({ alimentos: ali1 });
 
-    // Using Object.keys() and map() function
-    // to convert convert an Object {} to an
-    // Array [] of key-value pairs
+    this.setState({
+      alimentos: [{ label: alName[0] + "", value: cal[0] }],
+    });
+    this.setState({
+      alimentos: [{ label: alName[1] + "", value: cal[1] }],
+    });
+    this.setState({
+      alimentos: [{ label: alName[2] + "", value: cal[2] }],
+    });
+    this.setState({
+      alimentos: [{ label: alName[3] + "", value: cal[3] }],
+    });
+    this.setState({
+      alimentos: [{ label: alName[4] + "", value: cal[4] }],
+    });
+    this.setState({
+      alimentos: [{ label: alName[5] + "", value: cal[5] }],
+    });
 
-    /*var result = Object.keys(ali1).map(function(key) {
-      // Using Number() to convert key to number type
-      // Using obj[key] to retrieve key value
-      return [Number(key), ali1[key]];
-    });*/
+    /*let key = 1;
+    this.setState((prevState) => ({
+      ali1: prevState.todoItems.map((el) =>
+        el.key === key ? { ...el, status: "done" } : el
+      ),
+    }));*/
+
+    //this.state.alimentos = new Array(this.state.ali1);
+    this.state.yes = String(this.state.alimentos);
     //alert(result);
-    /*this.setState({
-      ali1: [{ label: JSON.stringify(alName) + "", value: parseInt(cal) }],
-    });*/
     alert(this.state.ali1.label + " " + this.state.ali1.value);
+    //alert(this.state.kaka.label + " " + this.state.kaka.value);
     this.setState({ fitAli: yeah });
     //alert(this.state.fitAli);
   };
@@ -270,7 +288,8 @@ export default class App extends React.Component {
       value: null,
       color: "#9EA0A4",
     };
-    //this.state.conCalorias = this.state.conCalorias + this.state.favSport0;
+    //this.setState({ ali1: ali1 });
+
     return (
       <View style={styles.container}>
         <TouchableOpacity
@@ -290,6 +309,10 @@ export default class App extends React.Component {
           <View style={styles.package}>
             <Text style={styles.sensorField}>MedRef: </Text>
             <Text style={styles.sensorField}>{this.state.medAlimentos}</Text>
+          </View>
+          <View style={styles.package}>
+            <Text style={styles.sensorField}>Label: </Text>
+            <Text style={styles.sensorField}>{label}</Text>
           </View>
 
           <Text>Peso</Text>
@@ -335,7 +358,7 @@ export default class App extends React.Component {
           {/* and iOS onUpArrow/onDownArrow toggle example */}
           <RNPickerSelect
             placeholder={placeholder}
-            items={this.state.ali1}
+            items={this.state.alimentos}
             onValueChange={(value) => {
               this.setState({
                 comida: value,
