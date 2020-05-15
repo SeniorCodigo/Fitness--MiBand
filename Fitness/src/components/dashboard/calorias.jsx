@@ -15,10 +15,12 @@ import {
 import { createStackNavigator } from "react-navigation";
 import { Medic } from "./medic";
 
+import AsyncStorage from "@react-native-community/async-storage";
+
 import RNPickerSelect, { defaultStyles } from "react-native-picker-select";
 // import RNPickerSelect, { defaultStyles } from './debug';
 
-const alimentos = [
+/*alimentos = [
   {
     label: "Huevo",
     value: 74,
@@ -35,9 +37,9 @@ const alimentos = [
     label: "Pizza una rebanada",
     value: 298,
   },
-];
+];*/
 
-export default class App extends Component {
+export default class App extends React.Component {
   constructor(props) {
     super(props);
 
@@ -58,6 +60,22 @@ export default class App extends Component {
       conCalorias: 0,
       comida: 0,
       chin: 0,
+      medAlimentos: "",
+      fitAli: [],
+      kaka: [(label = []), (value = [])],
+      ali1: [
+        {
+          label: "Huevos",
+          value: 184,
+        },
+      ],
+      alimentos: [
+        {
+          label: "Huevo",
+          value: 74,
+        },
+      ],
+
       numbers: [
         {
           label: "1",
@@ -85,6 +103,100 @@ export default class App extends Component {
 
   static navigationOptions = {
     header: null,
+  };
+
+  /*showData = async () => {
+    let values = await AsyncStorage.getItem("key");
+
+    let d = JSON.parse(values);
+
+    alert(d);
+  };*/
+
+  getDataMedic = async () => {
+    let values = await AsyncStorage.getItem("key");
+
+    let d = JSON.parse(values) + "";
+    //let d = values + "";
+    //let sentences = d.split(",");
+    this.setState({ medAlimentos: d });
+    let sentences = this.state.medAlimentos.split(",");
+    //alert(sentences[1]);
+    var yeah = [];
+    var alName = [];
+    var cal = [];
+
+    for (var i = 0; i <= sentences.length; i++) {
+      if (i % 2 == 1) {
+        //this.state.fitAli = parseInt(sentences[i]);
+        yeah.push(sentences[i]);
+        //cal.push(yeah[i]);
+        cal.push(sentences[i]);
+        //alert(yeah);
+
+        //this.setState({ fitAli: parseInt(sentences[i]) });
+      } else {
+        yeah.push(sentences[i]);
+        alName.push(yeah[i]);
+        //alName.push(sentences[i]);
+        //this.setState({ fitAli: sentences[i] });
+      }
+    }
+    this.setState((prevState) => ({
+      kaka: {
+        // object that we want to update
+        ...prevState.kaka, // keep all other key-value pairs
+        value: cal, // update the value of specific key
+      },
+    }));
+    this.setState((prevState) => ({
+      kaka: {
+        // object that we want to update
+        ...prevState.kaka, // keep all other key-value pairs
+        label: alName, // update the value of specific key
+      },
+    }));
+
+    //Ali1
+    this.setState((prevState) => ({
+      ali1: {
+        // object that we want to update
+        ...prevState.ali1, // keep all other key-value pairs
+        label: JSON.stringify(alName), // update the value of specific key
+      },
+    }));
+
+    this.setState((prevState) => ({
+      ali1: {
+        // object that we want to update
+        ...prevState.ali1, // keep all other key-value pairs
+        value: parseInt(cal), // update the value of specific key
+      },
+    }));
+    //alimentos.label = alName;
+
+    //alert(this.state.ali1.label + " " + this.state.ali1.value);
+    //alert(alimentos.label);
+    //alert(peopleArray);
+    //this.state.alimentos.label = alName;
+    //this.setState({ alimentos: ali1 });
+
+    // Using Object.keys() and map() function
+    // to convert convert an Object {} to an
+    // Array [] of key-value pairs
+
+    /*var result = Object.keys(ali1).map(function(key) {
+      // Using Number() to convert key to number type
+      // Using obj[key] to retrieve key value
+      return [Number(key), ali1[key]];
+    });*/
+    //alert(result);
+    /*this.setState({
+      ali1: [{ label: JSON.stringify(alName) + "", value: parseInt(cal) }],
+    });*/
+    alert(this.state.ali1.label + " " + this.state.ali1.value);
+    this.setState({ fitAli: yeah });
+    //alert(this.state.fitAli);
   };
 
   getCalorias = () => {
@@ -169,10 +281,17 @@ export default class App extends Component {
             Referencias médicas {this.state.total}
           </Text>
         </TouchableOpacity>
+        {/*<Button title="Mostrar" color="#33AFFF" onPress={this.showData} />*/}
+        <Button title="Mostrar" color="#33AFFF" onPress={this.getDataMedic} />
         <ScrollView
           style={styles.scrollContainer}
           contentContainerStyle={styles.scrollContentContainer}
         >
+          <View style={styles.package}>
+            <Text style={styles.sensorField}>MedRef: </Text>
+            <Text style={styles.sensorField}>{this.state.medAlimentos}</Text>
+          </View>
+
           <Text>Peso</Text>
           <TextInput
             placeholder="Peso"
@@ -216,7 +335,7 @@ export default class App extends Component {
           {/* and iOS onUpArrow/onDownArrow toggle example */}
           <RNPickerSelect
             placeholder={placeholder}
-            items={alimentos}
+            items={this.state.ali1}
             onValueChange={(value) => {
               this.setState({
                 comida: value,

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { Component } from "react";
 import {
   Text,
   StyleSheet,
@@ -8,6 +8,7 @@ import {
   TouchableHighlight,
   Keyboard,
   Alert,
+  ScrollView,
 } from "react-native";
 
 import AsyncStorage from "@react-native-community/async-storage";
@@ -17,7 +18,9 @@ import AsyncStorage from "@react-native-community/async-storage";
   obtenerDatosStorage();
 }, []);*/
 
-export default class Medic extends React.Component {
+import styles from "./styles.jsx";
+
+export default class Medic extends Component {
   /*static navigationOptions = {
     header: null,
   };*/
@@ -25,96 +28,198 @@ export default class Medic extends React.Component {
     super(props);
 
     this.state = {
-      alimento: "",
-      saveInputAlimento: "",
-      nombreStorage: "",
-      guardarNombre: "",
-      fname: "",
-      fkcal: "",
+      desayuno1: "",
+      calDes1: 0,
+      desayuno2: "",
+      calDes2: 0,
+      comida1: "",
+      calCom1: 0,
+      comida2: "",
+      calCom2: 0,
+      cena1: "",
+      calCena1: 0,
+      cena2: "",
+      calCena2: 0,
+      values: "",
     };
   }
 
-  guardarDatos = async () => {
-    try {
-      await AsyncStorage.setItem("alimento", alimento);
-    } catch (error) {
-      console.log(error);
-    }
+  saveData = async () => {
+    /*const firstPair = [this.state.desayuno1, this.state.calDes1];
+    const secondPair = [this.state.desayuno2, this.state.calDes2];
+    const thirdPair = [this.state.comida1, this.state.calCom1];
+    const fourthPair = [this.state.comida2, this.state.calCom2];
+    const fithPair = [this.state.cena1, this.state.calCena1];
+    const sixthPair = [this.state.cena2, this.state.calCena2];
+    const firstPair = desayuno1;*/
+    let key = [
+      ["key1", "1"],
+      ["key2", "2"],
+      ["key3", "3"],
+      ["key4", "4"],
+      ["key5", "5"],
+      ["key6", "6"],
+    ];
+    /*let key = [
+      [this.state.desayuno1, this.state.calDes1],
+      [this.state.desayuno2, this.state.calDes2],
+      [this.state.comida1, this.state.calCom1],
+      [this.state.comida2, this.state.calCom2],
+      [this.state.cena1, this.state.calCena1],
+      [this.state.cena2, this.state.calCena2],
+    ];*/
+    //await AsyncStorage.setItem("first", JSON.stringify(firstPair));
+    /*await AsyncStorage.multiSet(
+        "first",
+        JSON.stringify(firstPair),
+        "second",
+        JSON.stringify(secondPair),
+        "third",
+        JSON.stringify(thirdPair),
+        "fourth",
+        JSON.stringify(fourthPair),
+        "fith",
+        JSON.stringify(fithPair),
+        "sixth",
+        JSON.stringify(sixthPair)
+      );*/
+    await AsyncStorage.setItem("key", JSON.stringify(key));
 
-    console.log;
-  };
-
-  obtenerDatosStorage = async () => {
-    try {
-      const alimento = await AsyncStorage.getItem("alimento");
-      guardarNombre(alimento);
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
-  saveData = () => {
-    //const { fname, fkcal } = this.state;
-    const myName = this.state.fname;
-    AsyncStorage.setItem("myName", JSON.stringify(myName));
+    /*alert(
+      firstPair + secondPair + thirdPair + fourthPair + fithPair + sixthPair
+    );*/
   };
 
   showData = async () => {
-    const value = await AsyncStorage.getItem("myName");
-    if (value !== null) {
-      // We have data!!
-      //console.log(value);
-      alert(value);
-    }
+    //const values = "";
+
+    /*await AsyncStorage.multiGet("key", (stores) => {
+      stores.map((result, i, store) => {
+        let key = store[i][0];
+        let value = store[i][1];
+        let multi = result;
+        this.state.values = result;
+        //alert(key + value);
+        //alert("result " + result);
+        alert("value: " + this.state.values);
+      });
+    });*/
+    let key = await AsyncStorage.getItem("key");
+    let d = JSON.parse(key);
+    this.setState({ values: d });
+    alert(d);
+
+    /*try {
+      values = JSON.stringify(
+        await AsyncStorage.multiGet([firstPair, secondPair])
+      );
+    } catch (e) {
+      // read error
+    }*/
   };
 
   render() {
+    //const { params1, params2 } = this.props.route.params;
+
     return (
       <>
-        <View style={styles.container}>
-          <Text>Hola: {this.state.alimento}</Text>
-          <TextInput
-            placeholder="Alimento"
-            style={styles.input}
-            onChangeText={(text) => this.setState({ fname: text })}
-          />
+        <ScrollView>
+          <View style={styles.contenedor}>
+            <Text>Desayuno</Text>
+            <View style={styles.spacing} />
+            <Text>Opción 1</Text>
+            <View style={styles.package}>
+              <Text style={styles.sensorField}>Valores:</Text>
+              <Text style={styles.sensorField}>{this.state.values[1]}</Text>
+            </View>
 
-          <Button title="Guardar" color="#33AFFF" onPress={this.saveData} />
-          <Button title="Mostrar" color="#33AFFF" onPress={this.showData} />
+            <TextInput
+              placeholder="Alimento"
+              style={styles.input}
+              onChangeText={(text) => this.setState({ desayuno1: text })}
+            />
 
-          <Text>{this.state.alimento}</Text>
-          <TouchableHighlight style={styles.btnDelete}>
-            <Text style={styles.txtDelete}>Eliminar nombre &times;</Text>
-          </TouchableHighlight>
-        </View>
+            <TextInput
+              placeholder="Calorias"
+              style={styles.input}
+              onChangeText={(text) => this.setState({ calDes1: text })}
+            />
+
+            <Text>Opción 2</Text>
+            <TextInput
+              placeholder="Alimento"
+              style={styles.input}
+              onChangeText={(text) => this.setState({ desayuno2: text })}
+            />
+
+            <TextInput
+              placeholder="Calorias"
+              style={styles.input}
+              onChangeText={(text) => this.setState({ calDes2: text })}
+            />
+
+            <Text>Comida</Text>
+            <View style={styles.spacing} />
+            <Text>Opción 1</Text>
+            <TextInput
+              placeholder="Alimento"
+              style={styles.input}
+              onChangeText={(text) => this.setState({ comida1: text })}
+            />
+
+            <TextInput
+              placeholder="Calorias"
+              style={styles.input}
+              onChangeText={(text) => this.setState({ calCom1: text })}
+            />
+
+            <Text>Opción 2</Text>
+            <TextInput
+              placeholder="Alimento"
+              style={styles.input}
+              onChangeText={(text) => this.setState({ comida2: text })}
+            />
+
+            <TextInput
+              placeholder="Calorias"
+              style={styles.input}
+              onChangeText={(text) => this.setState({ calCom2: text })}
+            />
+
+            <Text>Cena</Text>
+            <View style={styles.spacing} />
+            <Text>Opción 1</Text>
+            <TextInput
+              placeholder="Alimento"
+              style={styles.input}
+              onChangeText={(text) => this.setState({ cena1: text })}
+            />
+
+            <TextInput
+              placeholder="Calorias"
+              style={styles.input}
+              onChangeText={(text) => this.setState({ calCena1: text })}
+            />
+
+            <Text>Opción 2</Text>
+            <TextInput
+              placeholder="Alimento"
+              style={styles.input}
+              onChangeText={(text) => this.setState({ cena2: text })}
+            />
+
+            <TextInput
+              placeholder="Calorias"
+              style={styles.input}
+              onChangeText={(text) => this.setState({ calCena2: text })}
+            />
+
+            <Button title="Guardar" color="#33AFFF" onPress={this.saveData} />
+            <View style={styles.spacing} />
+            <Button title="Mostrar" color="#33AFFF" onPress={this.showData} />
+          </View>
+        </ScrollView>
       </>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#FFF",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  input: {
-    borderColor: "#666",
-    borderBottomColor: 1,
-    width: 300,
-    height: 40,
-  },
-  btnDelete: {
-    backgroundColor: "red",
-    marginTop: 20,
-    padding: 10,
-  },
-  txtDelete: {
-    color: "white",
-    fontWeight: "bold",
-    textAlign: "center",
-    textTransform: "uppercase",
-    width: 300,
-  },
-});

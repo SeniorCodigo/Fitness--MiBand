@@ -5552,7 +5552,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.3"
 
-prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -5734,6 +5734,13 @@ react-native-list-view-select@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/react-native-list-view-select/-/react-native-list-view-select-1.0.4.tgz#9eeb7f929e277c28aebf3d3f4b6cd05afcd01d1a"
   integrity sha1-nut/kp4nfCiuvz0/S2zQWvzQHRo=
+
+react-native-modal-selector@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-modal-selector/-/react-native-modal-selector-2.0.1.tgz#ae75bbe23d5bff06165f18476eb1088ae3d361ba"
+  integrity sha512-biDUC51MnH3aIbCL4tGJjqN6MPd+H3iPy/EsoPwY5qcUjYn1owbCXs+RY80wOOYpu9OLi6RZQ+C87v2JQ8TxOA==
+  dependencies:
+    prop-types "^15.5.10"
 
 react-native-paper@=1.4.0:
   version "1.4.0"

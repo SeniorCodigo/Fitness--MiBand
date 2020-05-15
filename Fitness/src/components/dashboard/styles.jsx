@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default styles = StyleSheet.create({
+export default (styles = StyleSheet.create({
   container: {
     //backgroundColor: "#FFCCBC",
     //backgroundColor: "#2F4F4F",
@@ -9,7 +9,7 @@ export default styles = StyleSheet.create({
     flexDirection: "column",
     alignContent: "center",
     justifyContent: "center",
-    padding: 15
+    padding: 15,
   },
   MainContainer: {
     flex: 1,
@@ -17,36 +17,36 @@ export default styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#2F4F4F",
     borderWidth: 1,
-    borderColor: "#000"
+    borderColor: "#000",
   },
   ImageStyle: {
     height: 150,
     width: 150,
-    resizeMode: "stretch"
+    resizeMode: "stretch",
   },
   package: {
     flexDirection: "row",
     justifyContent: "space-between",
-    margin: 5
+    margin: 5,
   },
   packageActivity: {
     color: "#33AFFF",
     flexDirection: "row",
     justifyContent: "center",
-    margin: 5
+    margin: 5,
   },
   sensorField: {
-    fontSize: 20
+    fontSize: 20,
   },
   buttonContainer: {
     flexDirection: "column",
-    justifyContent: "space-around"
+    justifyContent: "space-around",
   },
   spacing: {
-    padding: 5
+    padding: 5,
   },
   spacingExercices: {
-    padding: 50
+    padding: 50,
   },
   buttonEnabled: {
     height: 35,
@@ -56,7 +56,7 @@ export default styles = StyleSheet.create({
     shadowOpacity: 0.8,
     elevation: 6,
     shadowRadius: 15,
-    shadowOffset: { width: 1, height: 5 }
+    shadowOffset: { width: 1, height: 5 },
   },
   buttonDisabled: {
     height: 35,
@@ -66,31 +66,57 @@ export default styles = StyleSheet.create({
     shadowOpacity: 0.8,
     elevation: 6,
     shadowRadius: 15,
-    shadowOffset: { width: 1, height: 5 }
+    shadowOffset: { width: 1, height: 5 },
   },
   text: {
     color: "white",
     textAlign: "center",
     fontSize: 25,
-    marginTop: 16
+    marginTop: 16,
   },
   textAverage: {
     textAlign: "center",
     fontSize: 25,
-    marginTop: 16
+    marginTop: 16,
   },
   buttonText: {
     fontSize: 14,
     color: "white",
     textAlign: "center",
-    paddingTop: 7
+    paddingTop: 7,
   },
   scrollContainer: {
     flex: 1,
-    paddingHorizontal: 15
+    paddingHorizontal: 15,
   },
   scrollContentContainer: {
     paddingTop: 40,
-    paddingBottom: 10
-  }
-});
+    paddingBottom: 10,
+  },
+
+  //Medic
+  contenedor: {
+    flex: 1,
+    backgroundColor: "#FFF",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  input: {
+    borderColor: "#666",
+    borderBottomColor: 1,
+    width: 300,
+    height: 40,
+  },
+  btnDelete: {
+    backgroundColor: "red",
+    marginTop: 20,
+    padding: 10,
+  },
+  txtDelete: {
+    color: "white",
+    fontWeight: "bold",
+    textAlign: "center",
+    textTransform: "uppercase",
+    width: 300,
+  },
+}));
