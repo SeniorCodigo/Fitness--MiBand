@@ -75,6 +75,26 @@ export default class App extends React.Component {
           label: "Huevo",
           value: 74,
         },
+        {
+          label: "Pera",
+          value: 55,
+        },
+        {
+          label: "Pollo 100 g",
+          value: 195,
+        },
+        {
+          label: "Tortilla de maíz",
+          value: 52,
+        },
+        {
+          label: "Pizza una rebanada",
+          value: 298,
+        },
+        {
+          label: "Queso",
+          value: 298,
+        },
       ],
 
       numbers: [
@@ -174,47 +194,40 @@ export default class App extends React.Component {
         value: cal, // update the value of specific key
       },
     }));
-    //alimentos.label = alName;
-
-    //alert(this.state.ali1.label + " " + this.state.ali1.value);
-    //alert(alimentos.label);
-    //alert(peopleArray);
-    //this.state.alimentos.label = alName;
-    //this.setState({ alimentos: ali1 });
 
     this.setState({
-      alimentos: [{ label: alName[0] + "", value: cal[0] }],
-    });
-    this.setState({
-      alimentos: [{ label: alName[1] + "", value: cal[1] }],
-    });
-    this.setState({
-      alimentos: [{ label: alName[2] + "", value: cal[2] }],
-    });
-    this.setState({
-      alimentos: [{ label: alName[3] + "", value: cal[3] }],
-    });
-    this.setState({
-      alimentos: [{ label: alName[4] + "", value: cal[4] }],
-    });
-    this.setState({
-      alimentos: [{ label: alName[5] + "", value: cal[5] }],
+      alimentos: [
+        {
+          label: alName[0] + "",
+          value: cal[0],
+        },
+        {
+          label: alName[1] + "",
+          value: cal[1],
+        },
+        {
+          label: alName[2] + "",
+          value: cal[2],
+        },
+        {
+          label: alName[3] + "",
+          value: cal[3],
+        },
+        {
+          label: alName[4] + "",
+          value: cal[4],
+        },
+        {
+          label: alName[5] + "",
+          value: cal[5],
+        },
+      ],
     });
 
-    /*let key = 1;
-    this.setState((prevState) => ({
-      ali1: prevState.todoItems.map((el) =>
-        el.key === key ? { ...el, status: "done" } : el
-      ),
-    }));*/
-
-    //this.state.alimentos = new Array(this.state.ali1);
     this.state.yes = String(this.state.alimentos);
     //alert(result);
     alert(this.state.ali1.label + " " + this.state.ali1.value);
-    //alert(this.state.kaka.label + " " + this.state.kaka.value);
     this.setState({ fitAli: yeah });
-    //alert(this.state.fitAli);
   };
 
   getCalorias = () => {
@@ -357,6 +370,7 @@ export default class App extends React.Component {
           <Text>Selecionar alimentos</Text>
           {/* and iOS onUpArrow/onDownArrow toggle example */}
           <RNPickerSelect
+            onPress={this.getDataMedic}
             placeholder={placeholder}
             items={this.state.alimentos}
             onValueChange={(value) => {

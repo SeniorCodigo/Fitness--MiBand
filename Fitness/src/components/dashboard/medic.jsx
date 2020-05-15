@@ -52,22 +52,22 @@ export default class Medic extends Component {
     const fithPair = [this.state.cena1, this.state.calCena1];
     const sixthPair = [this.state.cena2, this.state.calCena2];
     const firstPair = desayuno1;*/
-    let key = [
+    /*let key = [
       ["key1", "1"],
       ["key2", "2"],
       ["key3", "3"],
       ["key4", "4"],
       ["key5", "5"],
       ["key6", "6"],
-    ];
-    /*let key = [
+    ];*/
+    let key = [
       [this.state.desayuno1, this.state.calDes1],
       [this.state.desayuno2, this.state.calDes2],
       [this.state.comida1, this.state.calCom1],
       [this.state.comida2, this.state.calCom2],
       [this.state.cena1, this.state.calCena1],
       [this.state.cena2, this.state.calCena2],
-    ];*/
+    ];
     //await AsyncStorage.setItem("first", JSON.stringify(firstPair));
     /*await AsyncStorage.multiSet(
         "first",
