@@ -5,9 +5,7 @@ import {
   TextInput,
   Button,
   View,
-  TouchableHighlight,
-  Keyboard,
-  Alert,
+  TouchableOpacity,
   ScrollView,
 } from "react-native";
 
@@ -42,26 +40,23 @@ export default class Medic extends Component {
       calCena2: 0,
       values: "",
       caloriasRes: 0,
+      peso: null,
+      altura: null,
+      total: null,
     };
   }
 
   saveData = async () => {
-    /*const firstPair = [this.state.desayuno1, this.state.calDes1];
-    const secondPair = [this.state.desayuno2, this.state.calDes2];
-    const thirdPair = [this.state.comida1, this.state.calCom1];
-    const fourthPair = [this.state.comida2, this.state.calCom2];
-    const fithPair = [this.state.cena1, this.state.calCena1];
-    const sixthPair = [this.state.cena2, this.state.calCena2];
-    const firstPair = desayuno1;*/
-    /*let key = [
+    //cargar base de datos con valores por default
+    let key = [
       ["key1", "1"],
       ["key2", "2"],
       ["key3", "3"],
       ["key4", "4"],
       ["key5", "5"],
       ["key6", "6"],
-    ];*/
-    let key = [
+    ];
+    /*let key = [
       [this.state.desayuno1, this.state.calDes1],
       [this.state.desayuno2, this.state.calDes2],
       [this.state.comida1, this.state.calCom1],
@@ -69,68 +64,83 @@ export default class Medic extends Component {
       [this.state.cena1, this.state.calCena1],
       [this.state.cena2, this.state.calCena2],
       [this.state.caloriasRes],
-    ];
-    //let cal = [this.state.calorias];
-    //await AsyncStorage.setItem("first", JSON.stringify(firstPair));
-    /*await AsyncStorage.multiSet(
-        "first",
-        JSON.stringify(firstPair),
-        "second",
-        JSON.stringify(secondPair),
-        "third",
-        JSON.stringify(thirdPair),
-        "fourth",
-        JSON.stringify(fourthPair),
-        "fith",
-        JSON.stringify(fithPair),
-        "sixth",
-        JSON.stringify(sixthPair)
-      );*/
-    await AsyncStorage.setItem("key", JSON.stringify(key));
-    //await AsyncStorage.setItem("cal", JSON.stringify(cal));
+    ];*/
 
-    /*alert(
-      firstPair + secondPair + thirdPair + fourthPair + fithPair + sixthPair
-    );*/
+    await AsyncStorage.setItem("key", JSON.stringify(key));
+  };
+
+  saveDataCal = async () => {
+    //cargar base de datos con valores por default
+    let calorias = ["5000"];
+
+    //let calorias = [this.state.caloriasRes];
+    //resetear las calorías consumidas para cuando se ingresen nuevas calorías restantes
+    let calConsumidas = 0;
+
+    await AsyncStorage.setItem("kcal", JSON.stringify(calorias));
+    await AsyncStorage.setItem("kcalConsumidas", JSON.stringify(calConsumidas));
+  };
+
+  combinedFunctionData = () => {
+    this.saveData();
+    this.saveDataCal();
   };
 
   showData = async () => {
-    //const values = "";
-
-    /*await AsyncStorage.multiGet("key", (stores) => {
-      stores.map((result, i, store) => {
-        let key = store[i][0];
-        let value = store[i][1];
-        let multi = result;
-        this.state.values = result;
-        //alert(key + value);
-        //alert("result " + result);
-        alert("value: " + this.state.values);
-      });
-    });*/
     let key = await AsyncStorage.getItem("key");
-    //let cal = await AsyncStorage.getItem("cal");
     let d = JSON.parse(key);
-    //let c = JSON.parse(cal);
-    this.setState({ values: d });
-    alert(d);
 
-    /*try {
-      values = JSON.stringify(
-        await AsyncStorage.multiGet([firstPair, secondPair])
-      );
-    } catch (e) {
-      // read error
-    }*/
+    this.setState({ values: d });
+    //alert(d);
+  };
+
+  showDataCal = async () => {
+    let key = await AsyncStorage.getItem("kcal");
+    let d = JSON.parse(key);
+
+    this.setState({ values: d });
+    //alert(d);
+  };
+
+  combinedFunctionShow = () => {
+    this.showData();
+    this.showDataCal();
+  };
+
+  IMC = () => {
+    const { peso, estatura } = this.state;
+    //const estatura2 = Number(estatura);
+    const altura = Number(estatura) * Number(estatura);
+    const total = Number(peso) / Number(altura);
+    this.setState({ total: total });
   };
 
   render() {
-    //const { params1, params2 } = this.props.route.params;
-
     return (
       <>
         <ScrollView>
           <View style={styles.contenedor}>
+            <Text>Peso</Text>
+            <TextInput
+              placeholder="Peso"
+              values={this.state.peso}
+              onChangeText={(text) => this.setState({ peso: text })}
+            />
+            <Text>Edad</Text>
+            <TextInput
+              placeholder="Estatura"
+              values={this.state.estatura}
+              onChangeText={(text) => this.setState({ estatura: text })}
+            />
+            <View style={styles.spacing} />
+
+            <TouchableOpacity
+              style={styles.buttonEnabled}
+              onPress={this.IMC}
+              //onPress={this.getAverage}
+            >
+              <Text style={styles.buttonText}>IMC: {this.state.total}</Text>
+            </TouchableOpacity>
             <Text>Desayuno</Text>
             <View style={styles.spacing} />
             <Text>Opción 1</Text>
@@ -225,9 +235,17 @@ export default class Medic extends Component {
               onChangeText={(text) => this.setState({ caloriasRes: text })}
             />
 
-            <Button title="Guardar" color="#33AFFF" onPress={this.saveData} />
+            <Button
+              title="Guardar"
+              color="#33AFFF"
+              onPress={this.combinedFunctionData}
+            />
             <View style={styles.spacing} />
-            <Button title="Mostrar" color="#33AFFF" onPress={this.showData} />
+            <Button
+              title="Mostrar"
+              color="#33AFFF"
+              onPress={this.combinedFunctionShow}
+            />
           </View>
         </ScrollView>
       </>

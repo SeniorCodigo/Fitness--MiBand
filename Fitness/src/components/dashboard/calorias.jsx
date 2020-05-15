@@ -12,32 +12,9 @@ import {
   View,
 } from "react-native";
 
-import { createStackNavigator } from "react-navigation";
-import { Medic } from "./medic";
-
 import AsyncStorage from "@react-native-community/async-storage";
 
 import RNPickerSelect, { defaultStyles } from "react-native-picker-select";
-// import RNPickerSelect, { defaultStyles } from './debug';
-
-/*alimentos = [
-  {
-    label: "Huevo",
-    value: 74,
-  },
-  {
-    label: "Pollo 100 g",
-    value: 195,
-  },
-  {
-    label: "Tortilla de maíz",
-    value: 52,
-  },
-  {
-    label: "Pizza una rebanada",
-    value: 298,
-  },
-];*/
 
 export default class App extends React.Component {
   constructor(props) {
@@ -52,27 +29,22 @@ export default class App extends React.Component {
     };
 
     this.state = {
-      nelPerro: true,
       peso: null,
       estatura: null,
       total: null,
-      calRestantes: 2000,
+      calRestantes: 0,
       conCalorias: 0,
       comida: 0,
+      nelPerro: false,
       chin: 0,
+      perris: 0,
+      chuchis: 0,
       medAlimentos: "",
-      fitAli: [],
-      kaka: [(label = []), (value = [])],
-      yes: [{ Label: "yes", value: 0 }],
-      ali1: [
-        {
-          label: "Perra",
-          value: 0,
-        },
-      ],
+      fullCal: 0,
+
       alimentos: [
         {
-          label: "Carga la base de datos en MOSTRAR",
+          label: "Carga la base de datos",
           value: 0,
         },
       ],
@@ -107,78 +79,37 @@ export default class App extends React.Component {
     header: null,
   };
 
-  /*showData = async () => {
-    let values = await AsyncStorage.getItem("key");
-
-    let d = JSON.parse(values);
-
-    alert(d);
-  };*/
-
   getDataMedic = async () => {
     let values = await AsyncStorage.getItem("key");
-    //var c = await AsyncStorage.getItem("cal");
+    let valuesc = await AsyncStorage.getItem("kcal");
+    let valuese = await AsyncStorage.getItem("kcalConsumidas");
 
     let d = JSON.parse(values) + "";
-    //let d = values + "";
-    //let sentences = d.split(",");
+    let c = JSON.parse(valuesc) + "";
+    let e = JSON.parse(valuese) + "";
+
     this.setState({ medAlimentos: d });
 
-    //this.setState({ calMed: c });
+    //Se splitea los campos
     let sentences = this.state.medAlimentos.split(",");
-    //alert(sentences[1]);
-    this.setState({ calRestantes: sentences[12] });
+    //El subindice 12 es donde se enuentra calorías restantes provinientes de la pantalla Medic
+    this.setState({ fullCal: c });
+    this.setState({ calRestantes: c });
+    this.setState({ chin: e });
     var yeah = [];
     var alName = [];
     var cal = [];
-
+    //Ciclo para introducir los valores que provienen de Asynstorage
     for (var i = 0; i <= sentences.length; i++) {
       if (i % 2 == 1) {
-        //this.state.fitAli = parseInt(sentences[i]);
         yeah.push(sentences[i]);
-        //cal.push(yeah[i]);
-        cal.push(parseInt(yeah[i]));
-        //alert(yeah);
 
-        //this.setState({ fitAli: parseInt(sentences[i]) });
+        cal.push(parseInt(yeah[i]));
       } else {
         yeah.push(sentences[i]);
         alName.push(JSON.stringify(yeah[i]));
-        //alName.push(sentences[i]);
-        //this.setState({ fitAli: sentences[i] });
       }
     }
-    this.setState((prevState) => ({
-      kaka: {
-        // object that we want to update
-        ...prevState.kaka, // keep all other key-value pairs
-        value: cal, // update the value of specific key
-      },
-    }));
-    this.setState((prevState) => ({
-      kaka: {
-        // object that we want to update
-        ...prevState.kaka, // keep all other key-value pairs
-        label: alName, // update the value of specific key
-      },
-    }));
-
-    //Ali1
-    this.setState((prevState) => ({
-      ali1: {
-        // object that we want to update
-        ...prevState.ali1, // keep all other key-value pairs
-        label: JSON.parse(JSON.stringify(alName)), // update the value of specific key
-      },
-    }));
-
-    this.setState((prevState) => ({
-      ali1: {
-        // object that we want to update
-        ...prevState.ali1, // keep all other key-value pairs
-        value: cal, // update the value of specific key
-      },
-    }));
 
     this.setState({
       alimentos: [
@@ -209,17 +140,23 @@ export default class App extends React.Component {
       ],
     });
 
-    this.state.yes = String(this.state.alimentos);
-    //alert(result);
-    alert(this.state.ali1.label + " " + this.state.ali1.value);
-    this.setState({ fitAli: yeah });
+    //alert(this.state.alimentos);
+  };
+
+  combinedFunction = () => {
+    this.getDataMedic();
+    this.setDataCal();
   };
 
   getCalorias = () => {
     this.state.conCalorias = 0;
     const conCalorias = this.state.conCalorias + this.state.comida;
     this.state.calRestantes -= conCalorias;
-    const chin = 2000 - this.state.calRestantes;
+    const chin = this.state.fullCal - this.state.calRestantes;
+
+    //alert(chin);
+    //chin -= this.state.calRestantes;
+
     this.setState({ conCalorias: conCalorias });
     this.setState({ chin: chin });
 
@@ -228,6 +165,20 @@ export default class App extends React.Component {
       this.setState({ calRestantes: 0 });
       this.setState({ chin: 0 });
     }
+
+    let calorias = [this.state.calRestantes];
+
+    //alert(calorias);
+
+    AsyncStorage.setItem("kcal", JSON.stringify(calorias));
+    AsyncStorage.setItem("kcalConsumidas", JSON.stringify(chin));
+  };
+  setDataCal = async () => {
+    let calorias = [this.state.calRestantes];
+
+    //alert(calorias);
+
+    await AsyncStorage.setItem("kcal", JSON.stringify(calorias));
   };
 
   IMC = () => {
@@ -286,7 +237,6 @@ export default class App extends React.Component {
       value: null,
       color: "#9EA0A4",
     };
-    //this.setState({ ali1: ali1 });
 
     return (
       <View style={styles.container}>
@@ -298,22 +248,17 @@ export default class App extends React.Component {
             Referencias médicas {this.state.total}
           </Text>
         </TouchableOpacity>
-        {/*<Button title="Mostrar" color="#33AFFF" onPress={this.showData} />*/}
-        <Button title="Mostrar" color="#33AFFF" onPress={this.getDataMedic} />
+        <View style={styles.spacing} />
+        <Button
+          title="Cargar base de datos"
+          color="#33AFFF"
+          onPress={this.getDataMedic}
+        />
         <ScrollView
           style={styles.scrollContainer}
           contentContainerStyle={styles.scrollContentContainer}
         >
-          <View style={styles.package}>
-            <Text style={styles.sensorField}>MedRef: </Text>
-            <Text style={styles.sensorField}>{this.state.medAlimentos[6]}</Text>
-          </View>
-          <View style={styles.package}>
-            <Text style={styles.sensorField}>Label: </Text>
-            <Text style={styles.sensorField}>{label}</Text>
-          </View>
-
-          <Text>Peso</Text>
+          {/*} <Text>Peso</Text>
           <TextInput
             placeholder="Peso"
             values={this.state.peso}
@@ -333,20 +278,16 @@ export default class App extends React.Component {
             //onPress={this.getAverage}
           >
             <Text style={styles.buttonText}>IMC: {this.state.total}</Text>
-          </TouchableOpacity>
+    </TouchableOpacity>*/}
 
           <View style={styles.package}>
-            <Text style={styles.sensorField}>Calorias Restantes:</Text>
+            <Text style={styles.sensorField}>Calorías Restantes:</Text>
             <Text style={styles.sensorField}>{this.state.calRestantes}</Text>
           </View>
           <View paddingVertical={5} />
           <View style={styles.package}>
-            <Text style={styles.sensorField}>Calorias Consumidas:</Text>
+            <Text style={styles.sensorField}>Calorías Consumidas:</Text>
             <Text style={styles.sensorField}>{this.state.chin}</Text>
-          </View>
-          <View style={styles.package}>
-            <Text style={styles.sensorField}>Calorias Restantes:</Text>
-            <Text style={styles.sensorField}>{this.state.calMed}</Text>
           </View>
           <View style={styles.spacing} />
           <Button
@@ -356,10 +297,10 @@ export default class App extends React.Component {
             disabled={false}
           />
           <View style={styles.spacing} />
-          <Text>Selecionar alimentos</Text>
-          {/* and iOS onUpArrow/onDownArrow toggle example */}
+          <Text>Seleccionar alimentos</Text>
           <RNPickerSelect
-            onPress={this.getDataMedic}
+            nelPerro={true}
+            onPress={this.combinedFunction}
             placeholder={placeholder}
             items={this.state.alimentos}
             onValueChange={(value) => {
