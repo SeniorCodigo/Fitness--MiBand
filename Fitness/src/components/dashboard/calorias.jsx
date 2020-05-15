@@ -149,10 +149,13 @@ export default class App extends React.Component {
   };
 
   getCalorias = () => {
+    let chin = AsyncStorage.getItem("kcalConsumidas");
+    //alert(chin);
     this.state.conCalorias = 0;
     const conCalorias = this.state.conCalorias + this.state.comida;
+    //alert(this.state.calRestantes);
     this.state.calRestantes -= conCalorias;
-    const chin = this.state.fullCal - this.state.calRestantes;
+    chin = this.state.fullCal - this.state.calRestantes;
 
     //alert(chin);
     //chin -= this.state.calRestantes;
@@ -299,7 +302,6 @@ export default class App extends React.Component {
           <View style={styles.spacing} />
           <Text>Seleccionar alimentos</Text>
           <RNPickerSelect
-            nelPerro={true}
             onPress={this.combinedFunction}
             placeholder={placeholder}
             items={this.state.alimentos}

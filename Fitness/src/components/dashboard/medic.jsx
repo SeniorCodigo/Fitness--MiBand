@@ -48,15 +48,15 @@ export default class Medic extends Component {
 
   saveData = async () => {
     //cargar base de datos con valores por default
-    let key = [
+    /*let key = [
       ["key1", "1"],
       ["key2", "2"],
       ["key3", "3"],
       ["key4", "4"],
       ["key5", "5"],
       ["key6", "6"],
-    ];
-    /*let key = [
+    ];*/
+    let key = [
       [this.state.desayuno1, this.state.calDes1],
       [this.state.desayuno2, this.state.calDes2],
       [this.state.comida1, this.state.calCom1],
@@ -64,16 +64,16 @@ export default class Medic extends Component {
       [this.state.cena1, this.state.calCena1],
       [this.state.cena2, this.state.calCena2],
       [this.state.caloriasRes],
-    ];*/
+    ];
 
     await AsyncStorage.setItem("key", JSON.stringify(key));
   };
 
   saveDataCal = async () => {
     //cargar base de datos con valores por default
-    let calorias = ["5000"];
+    //let calorias = ["5000"];
 
-    //let calorias = [this.state.caloriasRes];
+    let calorias = [this.state.caloriasRes];
     //resetear las calorías consumidas para cuando se ingresen nuevas calorías restantes
     let calConsumidas = 0;
 
