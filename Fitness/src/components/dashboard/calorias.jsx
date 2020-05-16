@@ -15,6 +15,7 @@ import {
 import AsyncStorage from "@react-native-community/async-storage";
 
 import RNPickerSelect, { defaultStyles } from "react-native-picker-select";
+const calFullRes = AsyncStorage.getItem("kcal");
 
 export default class App extends React.Component {
   constructor(props) {
@@ -42,6 +43,8 @@ export default class App extends React.Component {
       medAlimentos: "",
       fullCal: 0,
       outOfDiet: "",
+      outOfDietCal: 0,
+      nuevoAlimento: " ",
 
       alimentos: [
         {
@@ -81,6 +84,7 @@ export default class App extends React.Component {
   };
 
   getDataMedic = async () => {
+    //this.state.nelPerro = true;
     let values = await AsyncStorage.getItem("key");
     let valuesc = await AsyncStorage.getItem("kcal");
     let valuese = await AsyncStorage.getItem("kcalConsumidas");
@@ -113,6 +117,9 @@ export default class App extends React.Component {
         alName.push(JSON.stringify(yeah[i]));
       }
     }
+    //incluir nuevo alimento
+    alName[6] = JSON.stringify(this.state.nuevoAlimento[0]);
+    cal[6] = parseInt(this.state.nuevoAlimento[1]);
 
     this.setState({
       alimentos: [
@@ -153,17 +160,21 @@ export default class App extends React.Component {
 
   getCalorias = () => {
     //let valKcalConsumidas = await AsyncStorage.getItem("kcalConsumidas");
-
     this.state.conCalorias = 0;
-    const conCalorias = this.state.conCalorias + this.state.comida;
-    //alert(this.state.calRestantes);
-    this.state.calRestantes -= conCalorias;
+    var nuevoAlimento = 0;
+    if (this.state.nelPerro == true) {
+      nuevoAlimento = parseInt(this.state.nuevoAlimento[1]);
+      //alert(nuevoAlimento);
+      const conCalorias = this.state.conCalorias + this.state.comida;
+      this.state.calRestantes -= conCalorias + nuevoAlimento;
+    }
     var chin = 0;
-    var chin1 = 0;
-    chin1 = parseInt(this.state.chin);
-    //alert(typeof this.state.chin + " " + typeof chin);
+    //var chin1 = 0;
+    const conCalorias = this.state.conCalorias + this.state.comida;
+    this.state.calRestantes -= conCalorias;
+
     chin = parseInt(this.state.fullCal) - parseInt(this.state.calRestantes);
-    //chin += chin1;
+    //hin = nuevoAlimento;
 
     //chin += chin1;
     //alert(this.state.fullCal + " " + this.state.calRestantes);
@@ -173,6 +184,7 @@ export default class App extends React.Component {
 
     this.setState({ conCalorias: conCalorias });
     this.setState({ chin: chin });
+    this.setState({ nelPerro: false });
 
     if (this.state.calRestantes < 0) {
       this.state.nelPerro = false;
@@ -196,7 +208,8 @@ export default class App extends React.Component {
   };
 
   setOutOfDiet = async () => {
-    let outDiet = [this.state.outOfDiet];
+    this.setState({ nelPerro: true });
+    let outDiet = [this.state.outOfDiet, this.state.outOfDietCal];
     alert("Alimento guardardo");
 
     //alert(calorias);
@@ -207,6 +220,7 @@ export default class App extends React.Component {
   getOutOfDiet = async () => {
     let getOutDiet = await AsyncStorage.getItem("outDiet");
     let d = JSON.parse(getOutDiet);
+    this.setState({ nuevoAlimento: d });
 
     alert("Alimento: " + d);
 
@@ -348,6 +362,14 @@ export default class App extends React.Component {
             placeholder="Alimento"
             values={this.state.peso}
             onChangeText={(text) => this.setState({ outOfDiet: text })}
+          />
+          <View style={styles.spacing} />
+          <View style={styles.spacing} />
+          <Text>Calorías</Text>
+          <TextInput
+            placeholder="Calorías"
+            values={this.state.peso}
+            onChangeText={(text) => this.setState({ outOfDietCal: text })}
           />
           <View style={styles.spacing} />
           <Button title="Guardar" color="#33AFFF" onPress={this.setOutOfDiet} />
