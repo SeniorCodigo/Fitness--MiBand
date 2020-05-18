@@ -15,7 +15,7 @@ import {
 import AsyncStorage from "@react-native-community/async-storage";
 
 import RNPickerSelect, { defaultStyles } from "react-native-picker-select";
-const calFullRes = AsyncStorage.getItem("kcal");
+//const calFullRes = AsyncStorage.getItem("kcalRestante");
 
 export default class App extends React.Component {
   constructor(props) {
@@ -45,6 +45,7 @@ export default class App extends React.Component {
       outOfDiet: "",
       outOfDietCal: 0,
       nuevoAlimento: " ",
+      getAlimento: false,
 
       alimentos: [
         {
@@ -84,23 +85,24 @@ export default class App extends React.Component {
   };
 
   getDataMedic = async () => {
-    //this.state.nelPerro = true;
-    let values = await AsyncStorage.getItem("key");
-    let valuesc = await AsyncStorage.getItem("kcal");
-    let valuese = await AsyncStorage.getItem("kcalConsumidas");
+    this.state.nelPerro = true;
+    let key = await AsyncStorage.getItem("key");
+    let kcalRestantes = await AsyncStorage.getItem("kcalRestantes");
+    let kcalConsumidas = await AsyncStorage.getItem("kcalConsumidas");
 
-    let d = JSON.parse(values) + "";
-    let c = JSON.parse(valuesc) + "";
-    let e = JSON.parse(valuese) + "";
+    let alimentos = JSON.parse(key) + "";
+    let calRestantes = JSON.parse(kcalRestantes) + "";
+    let calConsumidas = JSON.parse(kcalConsumidas) + "";
     //alert(typeof e);
 
-    this.setState({ medAlimentos: d });
+    this.setState({ medAlimentos: alimentos });
 
-    //Se splitea los campos
+    //Se splitea los campos y se instancias los valores
+    //calorías restantes y calorías consumidas
     let sentences = this.state.medAlimentos.split(",");
-    this.setState({ fullCal: c });
-    this.setState({ calRestantes: c });
-    this.setState({ chin: parseInt(e) });
+    this.setState({ fullCal: calRestantes });
+    this.setState({ calRestantes: calRestantes });
+    this.setState({ chin: parseInt(calConsumidas) });
     //alert(this.state.chin);
 
     var yeah = [];
@@ -159,32 +161,38 @@ export default class App extends React.Component {
   };
 
   getCalorias = () => {
-    //let valKcalConsumidas = await AsyncStorage.getItem("kcalConsumidas");
+    //ConCalorias se inicializa en cero para que no se acumulen los valores
     this.state.conCalorias = 0;
-    var nuevoAlimento = 0;
+
+    //Con el booleano nelPerro se detecta si hay nuevo alimento y se mantiene
+    //el primero valor de calorías restantes provinientes del file medic.jsx
     if (this.state.nelPerro == true) {
-      nuevoAlimento = parseInt(this.state.nuevoAlimento[1]);
-      //alert(nuevoAlimento);
-      const conCalorias = this.state.conCalorias + this.state.comida;
-      this.state.calRestantes -= conCalorias + nuevoAlimento;
+      //Se crea la variable full para siempre tener el primer valor de
+      //calorías restantes
+      let full = parseInt(this.state.fullCal) + parseInt(this.state.chin);
+      this.state.fullCal = full;
     }
-    var chin = 0;
-    //var chin1 = 0;
+
+    //Boleano para detectar cuando se detecta un nuevo alimento no recomendado para la dieta
+    if (this.state.getAlimento == true) {
+      //Se agrega el nuevo alimento y se resta el alimento que esta en el picker
+      let conCalorias =
+        this.state.conCalorias +
+        this.state.nuevoAlimento[1] -
+        this.state.comida;
+      this.state.calRestantes -= conCalorias;
+    }
+
     const conCalorias = this.state.conCalorias + this.state.comida;
     this.state.calRestantes -= conCalorias;
+    var chin = parseInt(this.state.fullCal) - parseInt(this.state.calRestantes);
 
-    chin = parseInt(this.state.fullCal) - parseInt(this.state.calRestantes);
-    //hin = nuevoAlimento;
-
-    //chin += chin1;
-    //alert(this.state.fullCal + " " + this.state.calRestantes);
-
-    //alert(chin);
-    //chin -= this.state.calRestantes;
+    //alert(this.state.fullCal + " " + this.state.calRestantes + " " + chin);
 
     this.setState({ conCalorias: conCalorias });
-    this.setState({ chin: chin });
+    this.setState({ chin: parseInt(chin) });
     this.setState({ nelPerro: false });
+    this.setState({ getAlimento: false });
 
     if (this.state.calRestantes < 0) {
       this.state.nelPerro = false;
@@ -196,19 +204,22 @@ export default class App extends React.Component {
 
     //alert(calorias);
 
-    AsyncStorage.setItem("kcal", JSON.stringify(calorias));
+    AsyncStorage.setItem("kcalRestantes", JSON.stringify(calorias));
     AsyncStorage.setItem("kcalConsumidas", JSON.stringify(chin));
   };
   setDataCal = async () => {
-    let calorias = [this.state.calRestantes];
+    let caloriasRestantes = [this.state.calRestantes];
 
     //alert(calorias);
 
-    await AsyncStorage.setItem("kcal", JSON.stringify(calorias));
+    await AsyncStorage.setItem(
+      "kcalRestantes",
+      JSON.stringify(caloriasRestantes)
+    );
   };
 
   setOutOfDiet = async () => {
-    this.setState({ nelPerro: true });
+    this.setState({ getAlimento: true });
     let outDiet = [this.state.outOfDiet, this.state.outOfDietCal];
     alert("Alimento guardardo");
 

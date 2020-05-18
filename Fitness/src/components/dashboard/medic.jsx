@@ -77,7 +77,7 @@ export default class Medic extends Component {
     //resetear las calorías consumidas para cuando se ingresen nuevas calorías restantes
     let calConsumidas = 0;
 
-    await AsyncStorage.setItem("kcal", JSON.stringify(calorias));
+    await AsyncStorage.setItem("kcalRestantes", JSON.stringify(calorias));
     await AsyncStorage.setItem("kcalConsumidas", JSON.stringify(calConsumidas));
   };
 
@@ -95,7 +95,7 @@ export default class Medic extends Component {
   };
 
   showDataCal = async () => {
-    let key = await AsyncStorage.getItem("kcal");
+    let key = await AsyncStorage.getItem("kcalRestantes");
     let d = JSON.parse(key);
 
     this.setState({ values: d });
@@ -115,7 +115,7 @@ export default class Medic extends Component {
   removeCal = async () => {
     let cal = [0];
 
-    await AsyncStorage.setItem("kcal", JSON.stringify(cal));
+    await AsyncStorage.setItem("kcalRestantes", JSON.stringify(cal));
     //alert("Los valores han sido removidos satisfactoriamente");
   };
   combinedFunctionRemove = () => {
