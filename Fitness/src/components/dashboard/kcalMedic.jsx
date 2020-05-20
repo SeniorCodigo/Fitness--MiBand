@@ -4,6 +4,8 @@ import { Text, StyleSheet } from "react-native";
 import { createStackNavigator } from "react-navigation";
 import CaloriasScreen from "./calorias";
 import MedicScreen from "./medic";
+import LoginScreen from "./login";
+import NavigateScreen from "./navigateLoginMedic";
 
 export default class KcalMedic extends React.Component {
   render() {
@@ -14,6 +16,8 @@ export default class KcalMedic extends React.Component {
 const AppStackNavigator = createStackNavigator({
   Calorias: CaloriasScreen,
   Medic: MedicScreen,
+  Login: LoginScreen,
+  Navigate: NavigateScreen,
 });
 
 const pickerSelectStyles = StyleSheet.create({

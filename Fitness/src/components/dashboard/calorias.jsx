@@ -299,10 +299,10 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <TouchableOpacity
           style={styles.buttonEnabled}
-          onPress={() => this.props.navigation.navigate("Medic")}
+          onPress={() => this.props.navigation.navigate("Login")}
         >
           <Text style={styles.buttonText}>
-            Referencias médicas {this.state.total}
+            Login para médicos {this.state.total}
           </Text>
         </TouchableOpacity>
         <View style={styles.spacing} />

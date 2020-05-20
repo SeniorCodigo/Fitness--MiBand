@@ -19,9 +19,9 @@ import AsyncStorage from "@react-native-community/async-storage";
 import styles from "./styles.jsx";
 
 export default class Medic extends Component {
-  /*static navigationOptions = {
+  static navigationOptions = {
     header: null,
-  };*/
+  };
   constructor(props) {
     super(props);
 
@@ -43,6 +43,7 @@ export default class Medic extends Component {
       peso: null,
       altura: null,
       total: null,
+      userPassNull: false,
     };
   }
 
@@ -123,6 +124,23 @@ export default class Medic extends Component {
     this.removeCal();
   };
 
+  userPassDelete = async () => {
+    let userPassRemove = [["", ""]];
+
+    let userPass = await AsyncStorage.setItem(
+      "userPass",
+      JSON.stringify(userPassRemove)
+    );
+    let d = JSON.parse(userPass);
+    //alert(d);
+
+    this.state.userPassNull = true;
+
+    if (this.state.userPassNull == true) {
+      this.props.navigation.navigate("Calorias");
+    }
+  };
+
   IMC = () => {
     const { peso, estatura } = this.state;
     //const estatura2 = Number(estatura);
@@ -135,7 +153,7 @@ export default class Medic extends Component {
     return (
       <>
         <ScrollView>
-          <View style={styles.contenedor}>
+          <View style={styles.container}>
             <Text>Peso</Text>
             <TextInput
               placeholder="Peso"
@@ -262,6 +280,12 @@ export default class Medic extends Component {
               color="red"
               onPress={this.combinedFunctionRemove}
             />
+            <TouchableOpacity
+              style={styles.buttonEnabled}
+              onPress={this.userPassDelete}
+            >
+              <Text style={styles.buttonText}>Regresar a calorías</Text>
+            </TouchableOpacity>
           </View>
         </ScrollView>
       </>
