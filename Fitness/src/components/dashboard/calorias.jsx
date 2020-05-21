@@ -160,6 +160,17 @@ export default class App extends React.Component {
     this.setDataCal();
   };
 
+  outDietDelete = async () => {
+    let outDietRemove = [["", ""]];
+
+    let userPass = await AsyncStorage.setItem(
+      "outDiet",
+      JSON.stringify(outDietRemove)
+    );
+    //let d = JSON.parse(userPass);
+    //alert(d);
+  };
+
   getCalorias = () => {
     //ConCalorias se inicializa en cero para que no se acumulen los valores
     this.state.conCalorias = 0;
@@ -181,6 +192,7 @@ export default class App extends React.Component {
         this.state.nuevoAlimento[1] -
         this.state.comida;
       this.state.calRestantes -= conCalorias;
+      this.outDietDelete();
     }
 
     const conCalorias = this.state.conCalorias + this.state.comida;
@@ -221,7 +233,7 @@ export default class App extends React.Component {
   setOutOfDiet = async () => {
     this.setState({ getAlimento: true });
     let outDiet = [this.state.outOfDiet, this.state.outOfDietCal];
-    alert("Alimento guardardo");
+    //alert("Alimento guardardo");
 
     //alert(calorias);
 
@@ -233,7 +245,7 @@ export default class App extends React.Component {
     let d = JSON.parse(getOutDiet);
     this.setState({ nuevoAlimento: d });
 
-    alert("Alimento: " + d);
+    alert("Alimento guardado: " + d);
 
     //alert(calorias);
   };
@@ -246,6 +258,10 @@ export default class App extends React.Component {
     this.setState({ total: total });
   };
 
+  outDietCombined = () => {
+    this.setOutOfDiet();
+    this.getOutOfDiet();
+  };
   InputAccessoryView() {
     return (
       <View style={defaultStyles.modalViewMiddle}>
@@ -383,12 +399,10 @@ export default class App extends React.Component {
             onChangeText={(text) => this.setState({ outOfDietCal: text })}
           />
           <View style={styles.spacing} />
-          <Button title="Guardar" color="#33AFFF" onPress={this.setOutOfDiet} />
-          <View style={styles.spacing} />
           <Button
-            title="Mostrar alimento"
+            title="Guardar"
             color="#33AFFF"
-            onPress={this.getOutOfDiet}
+            onPress={this.outDietCombined}
           />
         </ScrollView>
       </View>
