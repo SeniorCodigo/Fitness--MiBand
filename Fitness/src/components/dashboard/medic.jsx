@@ -137,7 +137,7 @@ export default class Medic extends Component {
     this.state.userPassNull = true;
 
     if (this.state.userPassNull == true) {
-      this.props.navigation.navigate("Calorias");
+      this.props.navigation.navigate("Mediciones");
     }
   };
 
@@ -280,11 +280,12 @@ export default class Medic extends Component {
               color="red"
               onPress={this.combinedFunctionRemove}
             />
+            <View style={styles.spacing} />
             <TouchableOpacity
               style={styles.buttonEnabled}
               onPress={this.userPassDelete}
             >
-              <Text style={styles.buttonText}>Regresar a calorías</Text>
+              <Text style={styles.buttonText}>Regresar a mediciones</Text>
             </TouchableOpacity>
           </View>
         </ScrollView>

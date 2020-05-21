@@ -73,9 +73,9 @@ export default class LoginScreen extends Component {
       <>
         <ScrollView>
           <View style={styles.container}>
-            <Text>Nombre de usuarioS</Text>
+            <Text>Nombre de usuario</Text>
             <TextInput
-              placeholder="Nombre de usuario"
+              placeholder="Usuario"
               onChangeText={(text) => this.setState({ userName: text })}
               values={this.state.userName}
               autoCapitalize="none"

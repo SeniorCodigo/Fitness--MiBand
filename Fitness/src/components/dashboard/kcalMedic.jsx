@@ -6,6 +6,7 @@ import CaloriasScreen from "./calorias";
 import MedicScreen from "./medic";
 import LoginScreen from "./login";
 import NavigateScreen from "./navigateLoginMedic";
+import MedicionesScreen from "./mediciones";
 
 export default class KcalMedic extends React.Component {
   render() {
@@ -14,9 +15,11 @@ export default class KcalMedic extends React.Component {
 }
 
 const AppStackNavigator = createStackNavigator({
+  Mediciones: MedicionesScreen,
   Calorias: CaloriasScreen,
   Medic: MedicScreen,
   Login: LoginScreen,
+
   Navigate: NavigateScreen,
 });
 

@@ -111,6 +111,10 @@ export default class Mediciones extends React.Component {
     }
     this.state.average = sum / values.length;
   };
+  //Borra el headear que avienta por default el React Navigate
+  static navigationOptions = {
+    header: null,
+  };
 
   render() {
     ///////////////////////////////////
@@ -131,10 +135,15 @@ export default class Mediciones extends React.Component {
 
     return (
       <View style={styles.container}>
-        <Image
-          source={require("./assets/react.png")}
-          style={{ width: 40, height: 40 }}
-        />
+        <TouchableOpacity
+          style={styles.buttonEnabled}
+          onPress={() => this.props.navigation.navigate("Login")}
+        >
+          <Text style={styles.buttonText}>
+            Login para médicos {this.state.total}
+          </Text>
+        </TouchableOpacity>
+
         <ScrollView>
           {/*Latidos de corazón */}
           <View style={styles.package}>

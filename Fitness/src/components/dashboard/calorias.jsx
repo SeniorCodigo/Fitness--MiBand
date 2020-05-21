@@ -297,14 +297,14 @@ export default class App extends React.Component {
 
     return (
       <View style={styles.container}>
-        <TouchableOpacity
+        {/*<TouchableOpacity
           style={styles.buttonEnabled}
           onPress={() => this.props.navigation.navigate("Login")}
         >
           <Text style={styles.buttonText}>
             Login para médicos {this.state.total}
           </Text>
-        </TouchableOpacity>
+        </TouchableOpacity>*/}
         <View style={styles.spacing} />
         <Button
           title="Cargar base de datos"
