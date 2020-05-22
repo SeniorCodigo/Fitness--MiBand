@@ -155,6 +155,10 @@ export default class App extends React.Component {
     //alert(this.state.alimentos);
   };
 
+  componentDidMount() {
+    this.getDataMedic();
+  }
+
   combinedFunction = () => {
     this.getDataMedic();
     this.setDataCal();
@@ -322,10 +326,10 @@ export default class App extends React.Component {
           </Text>
         </TouchableOpacity>*/}
         <View style={styles.spacing} />
-        <Button
+        <View
           title="Cargar base de datos"
-          color="#33AFFF"
-          onPress={this.getDataMedic}
+          color="#FFF"
+          onPress={this.getDataMedic.bind(this)}
         />
         <ScrollView
           style={styles.scrollContainer}
